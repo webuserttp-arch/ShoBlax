@@ -1,11 +1,11 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Crew Room · ShoBlax (MOCKUP)</title><link rel="stylesheet" href="style.css?v=11"><link rel="stylesheet" href="members.css?v=20261011e">
+<title>Crew Room · ShoBlax (MOCKUP)</title><link rel="stylesheet" href="style.css?v=11"><link rel="stylesheet" href="members.css?v=20261011f">
 <style>.hero{padding:20px 16px 12px}.hero h1{font-size:24px}#view{padding-bottom:20px}.ttl{padding:14px 16px 6px;color:var(--hi);font-size:18px}.empty{padding:24px 16px;font-size:14px}
 .newt{padding:0 16px}.newt textarea{width:100%;min-height:110px;background:#0f0f0f;border:1px solid var(--line);border-radius:10px;color:var(--hi);padding:12px;font:16px/1.35 inherit;margin-top:10px}</style></head><body>
 <header><a href="index.html"><img src="logo.svg?v=11" alt="ShoBlax"></a><nav><a href="index.html">Library</a></nav></header>
 <div class="hero"><span class="tag">Members only</span><h1>Crew Room</h1><p id="who"></p></div>
 <div id="view"></div><p class="note"><a href="privacy.html" style="color:#777">Privacy policy</a></p><div id="dock"></div>
-<script src="members-config.js?v=20261011e"></script><script src="members.js?v=20261011e"></script><script>
+<script src="members-config.js?v=20261011f"></script><script src="members.js?v=20261011f"></script><script>
 const $=i=>document.getElementById(i),E=SBX.E,view=$('view'),dock=$('dock');let poll=null,cur=null,last='';
 const fmt=t=>{const d=new Date(t);return isNaN(d)?'':d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})};
 const unesc=s=>{const t=document.createElement('textarea');t.innerHTML=s;return t.value}; // server escapes; we re-escape via E() for display

@@ -15,10 +15,10 @@ const M=window.SBX={E,
  call(action,o={}){const m=M.get(),p={action,token:m&&m.token,...o};return (action==='listThreads'||action==='getThread'||action==='me'||action==='listAdditions')?M.jsonp(p):M.post(p)},
  toast(t){let d=document.querySelector('.toast');if(!d){d=document.createElement('div');d.className='toast';d.setAttribute('role','status');document.body.appendChild(d)}d.textContent=t;d.classList.add('on');clearTimeout(M._t);M._t=setTimeout(()=>d.classList.remove('on'),3500)},
  openSheet(){if(!document.getElementById('sbxSheet'))build();document.getElementById('sbxBg').classList.add('on');document.getElementById('sbxSheet').classList.add('on');setTimeout(()=>document.getElementById('sbxName').focus(),250)},
- closeSheet(){document.getElementById('sbxBg').classList.remove('on');document.getElementById('sbxSheet').classList.remove('on')}
+ closeSheet(){document.querySelectorAll('.sheet.on,.sheet-bg.on').forEach(e=>e.classList.remove('on'));if(document.activeElement)document.activeElement.blur()}
 };
 function save(r){localStorage.setItem(K,JSON.stringify({token:r.token,display:r.member.display,id:r.member.id}))}
-function done(msg){M.closeSheet();M.toast(msg);document.dispatchEvent(new Event('sbx:member'))}
+function done(msg){M.closeSheet();try{M.toast(msg)}catch(e){}setTimeout(()=>document.dispatchEvent(new Event('sbx:member')),0)}
 const digits=v=>v.replace(/\D/g,'').replace(/^1(?=\d{10}$)/,''),okPhone=d=>/^[2-9]\d{2}[2-9]\d{6}$/.test(d);
 function build(){document.body.insertAdjacentHTML('beforeend',`<div class="sheet-bg" id="sbxBg"></div>
 <form class="sheet" id="sbxSheet" role="dialog" aria-modal="true" aria-labelledby="sbxH" novalidate><div class="grab"></div>
@@ -47,6 +47,7 @@ function build(){document.body.insertAdjacentHTML('beforeend',`<div class="sheet
  $('sbxCopy').onclick=async()=>{try{await navigator.clipboard.writeText($('sbxShow').textContent);$('sbxCopy').textContent='✓ Copied'}catch(e){const r=document.createRange();r.selectNode($('sbxShow'));getSelection().removeAllRanges();getSelection().addRange(r);$('sbxCopy').textContent='Selected, copy it'}};
  $('sbxForgot').onclick=async()=>{const d=digits($('sbxPhone2').value);if(!okPhone(d))return err.textContent='Enter your phone number first.';err.textContent='';
   const r=await M.post({action:'forgot',phone:d});$('sbxFmsg').textContent=r.ok?`We emailed a NEW code to ${r.to}. Your old code no longer works.`:r.error};
+ $('sbxGo').addEventListener('click',e=>{if(mode==='done'){e.preventDefault();done('You\'re in. Everything is unlocked.')}});
  const busy=(b,t)=>{$('sbxGo').disabled=b;if(t)$('sbxGo').textContent=t};
  $('sbxSheet').onsubmit=async e=>{e.preventDefault();err.textContent='';
   if(mode==='done'){done('You\'re in. Everything is unlocked.');return}
