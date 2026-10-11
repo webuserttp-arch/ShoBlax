@@ -28,3 +28,12 @@ ol.steps{padding-left:20px;font-size:14px}ol.steps li{margin:4px 0}
 .btn.pri{background:#2e2e2e;border-color:#4a4a4a;flex:1.6}
 input{width:100%;min-height:48px;background:#0f0f0f;border:1px solid var(--line);border-radius:10px;color:var(--hi);padding:0 12px;font-size:16px;margin-top:10px}
 .note{font-size:11px;text-align:center;padding:16px;color:#555}
+/* spotlight on hero logo */
+.hero{position:relative;overflow:hidden;isolation:isolate}
+.hero::before{content:"";position:absolute;z-index:0;inset:0;pointer-events:none;
+background:conic-gradient(from 236deg at 92% 0%,transparent 0deg,rgba(255,255,255,.10) 8deg,rgba(255,255,255,.28) 18deg,rgba(255,255,255,.10) 28deg,transparent 36deg),radial-gradient(ellipse 45% 35% at 32% 24%,rgba(255,255,255,.34),transparent 70%);
+filter:blur(4px);animation:spot 5s ease-in-out infinite alternate}
+.hero .wm{position:relative;filter:drop-shadow(-6px 10px 8px rgba(0,0,0,.85)) drop-shadow(0 0 14px rgba(255,255,255,.12)) brightness(2.2) contrast(1.15)}
+@keyframes spot{from{opacity:.85}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.hero::before{animation:none}}
+.hero>*{position:relative;z-index:1}
