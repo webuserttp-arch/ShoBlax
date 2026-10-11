@@ -1,3 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 48" role="img" aria-label="ShoBlax">
-  <text x="114" y="36" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="800" font-size="34" letter-spacing="4" fill="#3a3a3e">SHO<tspan fill="none" stroke="#505056" stroke-width="1.1" stroke-linejoin="round">BLAX</tspan></text>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="800" font-size="34" letter-spacing="4" text-anchor="middle">
+    <text x="114" y="36"><tspan fill="#3a3a3e">SHO</tspan><tspan fill="#505056" stroke="#505056" stroke-width="2.4" stroke-linejoin="round">BLAX</tspan></text>
+    <text x="114" y="36"><tspan fill="none">SHO</tspan><tspan fill="#0b0b0c">BLAX</tspan></text>
+  </g>
 </svg>
