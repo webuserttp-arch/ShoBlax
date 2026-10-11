@@ -1,2 +1,2 @@
 # ShoBlax
-Merch and Training in one spot
+building backstage communities
