@@ -63,6 +63,18 @@
    "Touring life & careers"
   ],
   [
+   "tourfest",
+   "Tour & festival life"
+  ],
+  [
+   "watches",
+   "Suggested watches"
+  ],
+  [
+   "memes",
+   "Crew memes"
+  ],
+  [
    "safety",
    "Safety & standards"
   ],
@@ -140,6 +152,51 @@
   }
  },
  "items": [
+  {
+   "type": "Video",
+   "t": "Roadies of the Spheres: Backstage with Coldplay's Crew",
+   "by": "ColdplayXtra TV",
+   "note": "Learn: how a stadium crew splits up the day, from PM to guitar tech to LD.",
+   "url": "https://www.youtube.com/watch?v=N7j1Tq-vQYU",
+   "vid": "N7j1Tq-vQYU",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "What It's Like Working Behind the Scenes as a Roadie",
+   "by": "CNBC Make It",
+   "note": "Learn: a backline tech's show-day checklist, from cases off the truck to the encore.",
+   "url": "https://www.youtube.com/watch?v=bgBgIJq6-oU",
+   "vid": "bgBgIJq6-oU",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Road Dogs Podcast, Ep. 1",
+   "by": "The Road Dogs Podcast",
+   "note": "Learn: how working crew advance shows, pick up gigs and survive long runs.",
+   "url": "https://www.youtube.com/watch?v=YzNVR8xbG0o",
+   "vid": "YzNVR8xbG0o",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
   {
    "type": "Video",
    "t": "The Stagehands (Career Guides)",
@@ -3162,6 +3219,482 @@
    "loc": {
     "state": "MI",
     "metro": "Saginaw/Bay City"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "The Absurd Logistics of Concert Tours",
+   "by": "Wendover Productions",
+   "note": "Learn: the load-in order (riggers, then motors, then departments) and why.",
+   "url": "https://www.youtube.com/watch?v=MY8AB1wYOtg",
+   "vid": "MY8AB1wYOtg",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "A Day in the Life of an Audio Engineer: Festival Show",
+   "by": "Rattlin' Bones Club",
+   "note": "Learn: running FOH on a festival changeover with a shared rig and no soundcheck.",
+   "url": "https://www.youtube.com/watch?v=GKbF2fOWHAU",
+   "vid": "GKbF2fOWHAU",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "The Logistics of Music Festivals",
+   "by": "Wendover Productions",
+   "note": "Learn: festival site build basics: power, structures, water, crowd flow.",
+   "url": "https://www.youtube.com/watch?v=Om3IQ5HEQ8g",
+   "vid": "Om3IQ5HEQ8g",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "How Glastonbury Festival Is Built in 26 Days",
+   "by": "Everything Explained",
+   "note": "Learn: how stage structures, PA towers and FOH risers go up over a long build.",
+   "url": "https://www.youtube.com/watch?v=6OmgU6opk3E",
+   "vid": "6OmgU6opk3E",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "How Tomorrowland Is Built in 52 Days",
+   "by": "Everything Explained",
+   "note": "Learn: build phasing for a giant main stage, from groundwork to scenic.",
+   "url": "https://www.youtube.com/watch?v=mQk4Gz9xyC8",
+   "vid": "mQk4Gz9xyC8",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Behind the Scenes: Concert Load-In at Red Rocks",
+   "by": "Red Rocks Park & Amphitheatre",
+   "note": "Learn: shuttling gear from semis to a tight dock, and road crew + locals working together.",
+   "url": "https://www.youtube.com/watch?v=2nD4fODrsXg",
+   "vid": "2nD4fODrsXg",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Ed Sheeran Mathematics Tour: Behind the Scenes, Lighting, PA & FOH Crew Life",
+   "by": "EventElevator",
+   "note": "Learn: an in-the-round rig: masts, halo video, fixture choices, PA design.",
+   "url": "https://www.youtube.com/watch?v=HvLCHaR4RbY",
+   "vid": "HvLCHaR4RbY",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Queen + Adam Lambert: Roadies in Lockdown (Ep. 3)",
+   "by": "Queen Official",
+   "note": "Learn: what a performer-tracking tech and a tour video director actually do.",
+   "url": "https://www.youtube.com/watch?v=Jk5by4wvfqk",
+   "vid": "Jk5by4wvfqk",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "From Theme-Park Technician to Arena Touring: Devin Jamal",
+   "by": "Stan Bicknell",
+   "note": "Learn: one path from stage tech to touring audio, lighting and drum tech.",
+   "url": "https://www.youtube.com/watch?v=yrEx0A5YtK4",
+   "vid": "yrEx0A5YtK4",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Rammstein: Behind the Scenes of the World Stadium Tour",
+   "by": "Rammstein Official",
+   "note": "Learn: how steel, pyro, lighting and logistics crews coordinate on a stadium tour.",
+   "url": "https://www.youtube.com/watch?v=yK5sg2rRXXg",
+   "vid": "yK5sg2rRXXg",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "How to Be a Good Roadie (TJ Hoffmann)",
+   "by": "Roadie Free Radio",
+   "note": "Learn: crew etiquette that gets you rehired: timing, cable, attitude.",
+   "url": "https://www.youtube.com/watch?v=XbUsGVHWdGg",
+   "vid": "XbUsGVHWdGg",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Robert Scovill on Roadie Free Radio",
+   "by": "Robert Scovill",
+   "note": "Learn: how a veteran FOH engineer approaches mixing big tours.",
+   "url": "https://www.youtube.com/watch?v=pql_zmSXDyY",
+   "vid": "pql_zmSXDyY",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Roadie Explains 40 Touring Job Titles",
+   "by": "TankTheTech",
+   "note": "Learn: 40 touring job titles and who reports to whom.",
+   "url": "https://www.youtube.com/watch?v=Fo0qHQ8kDjo",
+   "vid": "Fo0qHQ8kDjo",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "How I Accidentally Became a Tour Manager",
+   "by": "TankTheTech",
+   "note": "Learn: what a tour manager handles day to day, and how people move into it.",
+   "url": "https://www.youtube.com/watch?v=t2XC-UhLVIw",
+   "vid": "t2XC-UhLVIw",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "What's Up Roadie: Touring, Part 1 (Production Crew)",
+   "by": "What's Up Roadie",
+   "note": "Learn: production crew roles on tour, from the people doing them.",
+   "url": "https://www.youtube.com/watch?v=R0DPiCbklx8",
+   "vid": "R0DPiCbklx8",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Arena Load-In Time Lapse",
+   "by": "Rob Devlin",
+   "note": "Learn: the sequence of an arena load-in, start to doors, at a glance.",
+   "url": "https://www.youtube.com/watch?v=4u4LcBsDWRs",
+   "vid": "4u4LcBsDWRs",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Glastonbury 2019: The Site Build",
+   "by": "BBC Music",
+   "note": "Learn: the phases of a big festival site build before gates open.",
+   "url": "https://www.youtube.com/watch?v=NbydNdGBkHY",
+   "vid": "NbydNdGBkHY",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Meet a Circus Rigger",
+   "by": "Ringling",
+   "note": "Learn: a rigger's daily anchor, net and safety checks for an arena show.",
+   "url": "https://www.youtube.com/watch?v=rFUr2yRP9I4",
+   "vid": "rFUr2yRP9I4",
+   "topics": [
+    "tourfest"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Roadie: My Documentary (trailer)",
+   "by": "Rugged Entertainment",
+   "note": "Watch for: the real cost of road life, told by crew. Full film: roadiefilm.com.",
+   "url": "https://www.youtube.com/watch?v=8SJVs_cPIgE",
+   "vid": "8SJVs_cPIgE",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Almost Famous (2000, trailer)",
+   "by": "Amblin Entertainment",
+   "note": "Watch for: 1970s touring culture: buses, riders, crew vs. band. Fiction.",
+   "url": "https://www.youtube.com/watch?v=4U07rtBNa2g",
+   "vid": "4U07rtBNa2g",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Roadies (2016 series, promo)",
+   "by": "SHOWTIME",
+   "note": "Watch for: an arena crew drama; dramatized, but the crew-family part rings true.",
+   "url": "https://www.youtube.com/watch?v=N4qhBW128gY",
+   "vid": "N4qhBW128gY",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Long Strange Trip (trailer)",
+   "by": "Prime Video",
+   "note": "Watch for: how the Dead's crew built the Wall of Sound PA.",
+   "url": "https://www.youtube.com/watch?v=CzJFPlLdISo",
+   "vid": "CzJFPlLdISo",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Glastonbury (2006, trailer)",
+   "by": "HanWay Films",
+   "note": "Watch for: 35 years of a festival growing, fences, power and all.",
+   "url": "https://www.youtube.com/watch?v=CrL2TWSxukw",
+   "vid": "CrL2TWSxukw",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Woodstock (1970, trailer)",
+   "by": "Warner Bros. Rewind",
+   "note": "Watch for: a festival with no plan for weather, crowds or stage changes.",
+   "url": "https://www.youtube.com/watch?v=Ok9941BTzVg",
+   "vid": "Ok9941BTzVg",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Woodstock 99: Peace, Love, and Rage (trailer)",
+   "by": "HBO",
+   "note": "Watch for: crowd-safety failures (heat, water, fire) and what should have happened.",
+   "url": "https://www.youtube.com/watch?v=h62RmIsx6MA",
+   "vid": "h62RmIsx6MA",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Trainwreck: Woodstock '99 (trailer)",
+   "by": "Netflix",
+   "note": "Watch for: the same failures from the staff and crew side.",
+   "url": "https://www.youtube.com/watch?v=Tm5uUzbUwR4",
+   "vid": "Tm5uUzbUwR4",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Fyre: The Greatest Party That Never Happened (trailer)",
+   "by": "Netflix",
+   "note": "Watch for: what happens when production warnings are ignored.",
+   "url": "https://www.youtube.com/watch?v=uZ0KNVU2fV0",
+   "vid": "uZ0KNVU2fV0",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Video",
+   "t": "Wacken: Hearts Full of Metal (trailer)",
+   "by": "WackenTV",
+   "note": "Watch for: how a small team scaled a festival: site, ops, community.",
+   "url": "https://www.youtube.com/watch?v=MOIUc8sRqe0",
+   "vid": "MOIUc8sRqe0",
+   "topics": [
+    "watches"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "r/stagehands",
+   "by": "Reddit",
+   "note": "Learn: what the floor really thinks about PPE, cases and calls. Plus the jokes.",
+   "url": "https://www.reddit.com/r/stagehands/",
+   "topics": [
+    "memes"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "r/techtheatre",
+   "by": "Reddit",
+   "note": "Learn: gaff-tape fixes and 'audience never knew' saves. Memes most days.",
+   "url": "https://www.reddit.com/r/techtheatre/",
+   "topics": [
+    "memes"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "r/livesound",
+   "by": "Reddit",
+   "note": "Learn: real mix and gig fails from working engineers. Funny and useful.",
+   "url": "https://www.reddit.com/r/livesound/",
+   "topics": [
+    "memes"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Sociedade Roadie (@sociedaderoadie)",
+   "by": "Instagram",
+   "note": "Learn: backstage humor and tips from Brazil's road crews. In Portuguese.",
+   "url": "https://www.instagram.com/sociedaderoadie/",
+   "topics": [
+    "memes"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
    }
   }
  ],

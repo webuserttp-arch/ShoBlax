@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>ShoBlax: Event Production Library</title><link rel="stylesheet" href="style.css?v=11"><link rel="stylesheet" href="members.css?v=20261011g"><style>
+<title>ShoBlax: Event Production Library</title><link rel="stylesheet" href="style.css?v=20261011j"><link rel="stylesheet" href="members.css?v=20261011j"><style>
 .wm{width:78%;max-width:320px;display:block;margin:4px 0 14px}
 .chips a{flex:none;border:1px solid var(--line);padding:8px 12px;border-radius:99px;font-size:13px;color:var(--txt);text-decoration:none}
 .lnk{color:inherit;text-decoration:none}.lnk img.th{width:120px;height:68px;object-fit:cover;filter:grayscale(.6) brightness(.8)}
@@ -17,6 +17,7 @@ details.tp>summary::-webkit-details-marker{display:none}details.tp>summary:after
 details.tp>summary span{margin-left:auto;color:#666;font-weight:400;font-size:13px}.sub{padding:8px 12px 4px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#777;border-top:1px solid var(--line)}
 .vrow{display:flex;gap:10px;align-items:center}.vrow img{flex:none;width:96px;height:54px;object-fit:cover;border-radius:6px;filter:grayscale(.6) brightness(.8)}
 .bsb{min-height:56px;margin-top:10px;font-size:14px}.item small.sec{margin-top:6px}.bsl{padding:8px 12px;font-size:12px;color:#9a9a9a;border-top:1px solid var(--line)}.bsl span{display:block;color:#666;font-size:11px;margin-top:2px}
+.adm{display:flex;justify-content:flex-end;padding:6px 12px 0}.adm button{min-height:44px;min-width:88px;background:#2a1414;border:1px solid #6a2a2a;color:#e0a0a0;border-radius:10px;font:inherit;font-size:13px}
 .addl{display:flex;align-items:center;width:100%;min-height:56px;padding:0 14px;background:none;border:0;border-top:1px solid var(--line);color:var(--hi);font:inherit;font-size:14px;font-weight:600;cursor:pointer;text-align:left}
 .by{display:inline-block;font-size:11px;color:#8a8a8a;margin-top:4px}.pend{display:inline-block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;border:1px dashed #6a5a2a;color:#c9b070;border-radius:4px;padding:1px 6px;margin-left:6px}
 .tools{display:flex;gap:8px;padding:8px 16px 10px}.tools input{margin:0;min-height:44px;flex:1}.tools .btn{min-height:44px;flex:none;width:auto;padding:0 14px;font-size:13px}
@@ -28,17 +29,25 @@ details.tp>summary span{margin-left:auto;color:#666;font-weight:400;font-size:13
 <section><h2>Suggest a resource</h2><div class="box">Know a great video, book, school or course? <a class="btn" style="margin-top:12px" href="mailto:resources@example.com?subject=ShoBlax%20Production%20Library%20suggestion">Suggest a resource (placeholder)</a></div></section>
 <p class="note">More coming soon. Data in resources.json, verified Oct 11, 2026; contacts only as listed on official sites. Members sign-up data is described in our <a href="privacy.html" style="color:#777">Privacy policy</a>.</p>
 <div class="bar" id="bar"></div>
-<script src="resources.js?v=20261011g"></script><script src="hide.js?v=20261011g"></script><script src="lib.js?v=20261011g"></script><script src="members-config.js?v=20261011g"></script><script src="members.js?v=20261011g"></script><script>
-(async()=>{let R=window.RES;try{const r=await fetch('resources.json?v=20261011g');if(r.ok)R=await r.json()}catch(e){}
+<script src="resources.js?v=20261011j"></script><script src="hide.js?v=20261011j"></script><script src="lib.js?v=20261011j"></script><script src="members-config.js?v=20261011j"></script><script src="members.js?v=20261011j"></script><script>
+(async()=>{let R=window.RES;try{const r=await fetch('resources.json?v=20261011j');if(r.ok)R=await r.json()}catch(e){}
 R=SBX_HIDE(R);
 const $=id=>document.getElementById(id),E=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 localStorage.removeItem('sbx_loc');
 const {TY,lnk,card,lockCard,FREE}=SBX_LIB;
 let openSet=new Set(JSON.parse(sessionStorage.getItem('sbx_open')||'[]'));
 const P=new URLSearchParams(location.search);if(P.get('open'))P.get('open').split(',').forEach(k=>openSet.add(k));
-let ADD={approved:[],mine:[]};const un=v=>{const t=document.createElement('textarea');t.innerHTML=v||'';return t.value};
+let ADD={approved:[],mine:[],hidden:[]};
+/* Owner mode: open index.html?admin=KEY once on your own device; key is kept in this browser only. */
+const PQ=new URLSearchParams(location.search);if(PQ.get('admin')){localStorage.setItem('sbx_admin',PQ.get('admin'));PQ.delete('admin');history.replaceState(null,'',location.pathname+(PQ.toString()?'?'+PQ:''))}
+let ADMIN=false;const AK=()=>localStorage.getItem('sbx_admin')||'';
+if(AK())SBX.post({action:'admin',key:AK(),op:'check'}).then(r=>{ADMIN=!!r.ok;if(!r.ok)localStorage.removeItem('sbx_admin');render()});
+const HID=x=>{const h=ADD.hidden||[];return h.includes(x.url)||(x.vid&&h.includes(x.vid))||(x.id&&h.includes(x.id))};
+const adm=k=>ADMIN?`<div class="adm"><button type="button" data-hide="${E(k)}">✕ Hide</button></div>`:'';
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-hide]');if(!b)return;e.preventDefault();if(!confirm('Hide this item for everyone?'))return;
+ const r=await SBX.post({action:'admin',key:AK(),op:'hideItem',id:b.dataset.hide});if(r.ok){(ADD.hidden=ADD.hidden||[]).push(b.dataset.hide);render();SBX.toast('Hidden. Remove it from the Hidden tab to bring it back.')}else SBX.toast(r.error)});const un=v=>{const t=document.createElement('textarea');t.innerHTML=v||'';return t.value};
 function addCard(a,pend){return `<div class="item" data-added="${E(un(a.id))}"><b>${E(un(a.t))}${pend?`<span class="pend">${a.status==='REJECTED'?'Not approved':'Pending review'}</span>`:''}</b><small>${E(un(a.type))} · ${a.url?lnk(E(un(a.url)),'Open ↗'):''}</small>${a.note?`<em>${E(un(a.note))}</em>`:''}<span class="by">${pend?'Only you can see this until ShoBlax reviews it':'Added by '+E(un(a.author))}</span></div>`}
-function addsFor(k){const ap=ADD.approved.filter(a=>a.topic===k),mi=ADD.mine.filter(a=>a.topic===k);return ap.length||mi.length?'<div class="sub">Added by members</div>'+ap.map(a=>addCard(a)).join('')+mi.map(a=>addCard(a,1)).join(''):''}
+function addsFor(k){const ap=ADD.approved.filter(a=>a.topic===k&&!HID({url:un(a.url),id:a.id})),mi=ADD.mine.filter(a=>a.topic===k);return ap.length||mi.length?'<div class="sub">Added by members</div>'+ap.map(a=>adm(un(a.id))+addCard(a)).join('')+mi.map(a=>addCard(a,1)).join(''):''}
 async function loadAdds(){const r=await SBX.call('listAdditions');if(r.ok){ADD=r;render()}}
 function openAdd(k){if(!SBX.isMember()){SBX.openSheet();return}
  if(!$('addSheet')){document.body.insertAdjacentHTML('beforeend',`<div class="sheet-bg" id="addBg"></div><form class="sheet" id="addSheet" role="dialog" aria-modal="true" aria-labelledby="addH" novalidate><div class="grab"></div>
@@ -59,10 +68,10 @@ function openAdd(k){if(!SBX.isMember()){SBX.openSheet();return}
  $('adT').value=k||[...openSet][0]||R.topics[0][0];$('addBg').classList.add('on');$('addSheet').classList.add('on');setTimeout(()=>$('adU').focus(),250)}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-add]');if(b){e.preventDefault();openAdd(b.dataset.add)}});
 function render(){const q=$('qq').value.trim().toLowerCase();let tot=new Set();
- const items=R.items.filter(x=>(!q||(x.t+' '+x.by+' '+x.note).toLowerCase().includes(q)));
+ const items=R.items.filter(x=>!HID(x)&&(!q||(x.t+' '+x.by+' '+x.note).toLowerCase().includes(q)));
  $('lib').innerHTML=R.topics.map(([k,name])=>{const its=items.filter(x=>x.topics.includes(k));if(!its.length)return '';its.forEach(x=>tot.add(x.url+x.t));
   const mem=SBX.isMember(),ord=TY.flatMap(([ty])=>its.filter(x=>x.type===ty)),nb=ord.filter(x=>x.type!=='Book'),free=new Set(mem?ord:[...ord.filter(x=>x.type==='Book'),...nb.slice(0,FREE)]); /* books never locked */
-  const g=TY.map(([ty,lab])=>{const a=its.filter(x=>x.type===ty);return a.length?`<div class="sub">${lab} (${a.length})</div>`+(ty==='Book'?'<p class="bsl">📖 Support local bookstores: buy through Bookshop.org. <span>ShoBlax may earn a commission from purchases made through these links.</span></p>':'')+a.map(x=>free.has(x)?card(x):lockCard(x)).join(''):''}).join('')+(mem||nb.length<=FREE?'':`<p class="lockmore">🔒 ${nb.length-FREE} more in ${name}. Sign up free to unlock.</p>`);
+  const g=TY.map(([ty,lab])=>{const a=its.filter(x=>x.type===ty);return a.length?`<div class="sub">${lab} (${a.length})</div>`+(ty==='Book'?'<p class="bsl">📖 Support local bookstores: buy through Bookshop.org. <span>ShoBlax may earn a commission from purchases made through these links.</span></p>':'')+a.map(x=>adm(x.vid||x.url)+(free.has(x)?card(x):lockCard(x))).join(''):''}).join('')+(mem||nb.length<=FREE?'':`<p class="lockmore">🔒 ${nb.length-FREE} more in ${name}. Sign up free to unlock.</p>`);
   return `<details class="tp" data-k="${k}" ${(q||openSet.has(k))?'open':''}><summary>${name}<span>${its.length}</span></summary><button type="button" class="addl" data-add="${k}">＋ Add to this topic</button>${g}${addsFor(k)}</details>`}).join('')||'<p class="warn" style="margin:0 16px">No matches.</p>';
  $('cnt').textContent=`${tot.size} of ${R.items.length} resources shown · Last verified ${R.lastVerified}`;
  document.querySelectorAll('details.tp').forEach(d=>d.addEventListener('toggle',()=>{d.open?openSet.add(d.dataset.k):openSet.delete(d.dataset.k);sessionStorage.setItem('sbx_open',JSON.stringify([...openSet]))}));}
