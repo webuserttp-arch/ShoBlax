@@ -1,0 +1,871 @@
+{
+ "version": "2026-10-11",
+ "note": "Verified Oct 11, 2026 from official/publisher sites. Lookup aid only.",
+ "locations": {
+  "MI": {
+   "name": "Michigan",
+   "metros": {
+    "Detroit": [
+     "detroit",
+     "dearborn",
+     "warren",
+     "rochester",
+     "rochester hills",
+     "royal oak",
+     "southfield",
+     "troy",
+     "clarkston",
+     "sterling heights",
+     "livonia",
+     "novi",
+     "pontiac",
+     "auburn hills",
+     "ferndale",
+     "clinton township"
+    ],
+    "Ann Arbor": [
+     "ann arbor",
+     "ypsilanti"
+    ],
+    "Lansing": [
+     "lansing",
+     "east lansing",
+     "brooklyn"
+    ],
+    "Grand Rapids": [
+     "grand rapids",
+     "wyoming",
+     "allendale",
+     "walker",
+     "kentwood"
+    ],
+    "Flint": [
+     "flint",
+     "burton",
+     "grand blanc"
+    ],
+    "Saginaw/Bay City": [
+     "saginaw",
+     "bay city",
+     "university center",
+     "midland"
+    ]
+   }
+  }
+ },
+ "books": [
+  [
+   "Entertainment Rigging (2nd ed.)",
+   "Harry Donovan",
+   "The arena-rigging bible: shackles to force math.",
+   "https://store.iti.com/products/entertainment-rigging-2nd-edition",
+   "ITI Store"
+  ],
+  [
+   "Stage Rigging Handbook (3rd ed.)",
+   "Jay O. Glerum",
+   "Theatre fly systems: operation, inspection, training.",
+   "https://www.amazon.com/Stage-Rigging-Handbook-Third-Glerum/dp/0809327414",
+   "Amazon"
+  ],
+  [
+   "Backstage Handbook",
+   "Paul Carter",
+   "Pocket almanac of tools, hardware, electrics, shop math.",
+   "https://broadwaypress.com/bookpages/backstagehandbook.html",
+   "Broadway Press"
+  ],
+  [
+   "Stage Lighting Design: The Art, the Craft, the Life",
+   "Richard Pilbrow",
+   "Classic lighting-design text with pro interviews.",
+   "https://www.nickhernbooks.co.uk/stage-lighting-design",
+   "Nick Hern Books"
+  ],
+  [
+   "The Sound Reinforcement Handbook (2nd ed.)",
+   "Gary Davis & Ralph Jones (Yamaha)",
+   "The standard live-audio fundamentals reference.",
+   "https://www.halleonard.com/product/500964/the-sound-reinforcement-handbook-second-edition",
+   "Hal Leonard"
+  ],
+  [
+   "Concert Lighting (4th ed.)",
+   "James Moody & Paul Dexter",
+   "Touring/concert lighting art and business.",
+   "https://www.routledge.com/Concert-Lighting-The-Art-and-Business-of-Entertainment-Lighting/Moody-Dexter/p/book/9781138942912",
+   "Routledge"
+  ],
+  [
+   "Electricity for the Entertainment Electrician & Technician",
+   "Richard Cadena",
+   "Power distribution for live events, explained practically.",
+   "https://www.amazon.com/dp/0367249472",
+   "Amazon"
+  ],
+  [
+   "Show Networks and Control Systems",
+   "John Huntington",
+   "DMX, networking & show control (note: Huntington, not Cadena).",
+   "https://www.controlgeek.net/",
+   "Author site"
+  ],
+  [
+   "Sound Systems: Design and Optimization (3rd ed.)",
+   "Bob McCarthy",
+   "System tuning/alignment from Meyer Sound's optimization lead.",
+   "https://www.routledge.com/Sound-Systems-Design-and-Optimization-Modern-Techniques-and-Tools-for-Sound-System-Design-and-Alignment/McCarthy/p/book/9780415731010",
+   "Routledge"
+  ],
+  [
+   "Concert Tour Production Management",
+   "John Vasey",
+   "How tours are planned, advanced and run.",
+   "https://www.amazon.com/dp/1138132683",
+   "Amazon"
+  ],
+  [
+   "The Tour Book",
+   "Andy Reynolds",
+   "Touring logistics and crew roles end to end.",
+   "https://www.amazon.com/dp/1435459547",
+   "Amazon"
+  ],
+  [
+   "The Stage Manager's Toolkit",
+   "Laurie Kincman",
+   "Templates & communication for stage management.",
+   "https://www.amazon.com/dp/1032540338",
+   "Amazon"
+  ],
+  [
+   "The Event Safety Guide",
+   "Event Safety Alliance",
+   "US live-event safety practices in one manual.",
+   "https://www.skyhorsepublishing.com/9781629147611/the-event-safety-guide/",
+   "Skyhorse"
+  ]
+ ],
+ "pdfs": [
+  [
+   "ESTA TSP: free ANSI standards & recommended practices",
+   "ESTA",
+   "All published TSP documents, free PDF downloads.",
+   "https://tsp.esta.org/tsp/documents/published_docs.php"
+  ],
+  [
+   "ANSI ES1.7-2021 Event Safety: Weather Preparedness",
+   "ESTA / ESA",
+   "Free standard for event weather planning.",
+   "https://tsp.esta.org/tsp/documents/docs/ANSI%20ES1.7-2021.pdf"
+  ],
+  [
+   "The Event Safety Guide (PDF)",
+   "Event Safety Alliance",
+   "Free PDF edition hosted by ESA.",
+   "https://eventsafetyalliance.org/s/TheEventSafetyGuide.pdf"
+  ],
+  [
+   "ESA Standards & Guidance",
+   "Event Safety Alliance",
+   "Index of ESA's free guidance documents.",
+   "https://eventsafetyalliance.org/standards-guidance-2"
+  ],
+  [
+   "OSHA Fall Protection",
+   "OSHA",
+   "Fall-protection rules, fact sheets & publications.",
+   "https://www.osha.gov/fall-protection"
+  ],
+  [
+   "OSHA Powered Industrial Trucks (Forklifts)",
+   "OSHA",
+   "Forklift QuickCard, daily checklists, training rules.",
+   "https://www.osha.gov/powered-industrial-trucks"
+  ],
+  [
+   "CM Lodestar Operating Manual",
+   "Columbus McKinnon",
+   "Official manual for the industry-standard chain motor.",
+   "https://www.cmhoist.com/wp-content/uploads/sites/6/lodestar-classic-manual.pdf"
+  ],
+  [
+   "CM Lodestar VS Manual",
+   "Columbus McKinnon",
+   "Install/operate/maintain the variable-speed Lodestar.",
+   "https://www.cmhoist.com/wp-content/uploads/sites/6/lodestar-vs-manual.pdf"
+  ],
+  [
+   "Microphone Techniques for Live Sound Reinforcement",
+   "Shure",
+   "Free mic placement & feedback guide.",
+   "https://www.shure.com/damfiles/default/global/documents/publications/en/performance-production/microphone_techniques_for_live_sound_reinforcement_english.pdf-3df433145fca686a736beeb5da588efa.pdf"
+  ],
+  [
+   "Audio Systems Guide for Theater Performances",
+   "Shure",
+   "Wired/wireless mics for theatre.",
+   "https://content-files.shure.com/Pubs/audio-systems-guide-for-theater-performances/theater_guide_ea.pdf"
+  ],
+  [
+   "Severe Weather Planning Guide for Event Venues",
+   "National Weather Service",
+   "Free planning worksheets for outdoor events.",
+   "https://www.weather.gov/media/dvn/NWSDVN_eventplanning_guide.pdf"
+  ]
+ ],
+ "schools": [
+  [
+   "ETCP Certification",
+   "Online / test centers",
+   "Arena & theatre rigger, entertainment electrician certs",
+   "https://etcp.esta.org/",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "ESA Event Safety Access Training (ESAT)",
+   "Online",
+   "Entry-level event safety credential (paid)",
+   "https://eventsafetyalliance.org/online-learning/event-safety-access-training",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "IATSE Training Trust Fund",
+   "Online",
+   "Free courses for eligible IATSE workers; ETCP renewal credits",
+   "https://www.iatsetrainingtrust.org/courses-resources",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Full Sail University",
+   "Winter Park, FL",
+   "Show Production (B.S.)",
+   "https://www.fullsail.edu/degrees/show-production-bachelor",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Berklee College of Music",
+   "Boston, MA",
+   "Music production & engineering programs",
+   "https://college.berklee.edu/",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "UNCSA School of Design & Production",
+   "Winston-Salem, NC",
+   "Design & production BFA/MFA",
+   "https://www.uncsa.edu/design-production/index.aspx",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "CalArts School of Theater",
+   "Valencia, CA",
+   "Theater incl. technical direction & design",
+   "https://theater.calarts.edu/",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Wayne State University: Theatre & Dance",
+   "Detroit, MI",
+   "Theatre incl. design/tech",
+   "https://theatreanddance.wayne.edu/",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "Oakland University: School of Music, Theatre & Dance",
+   "Rochester, MI",
+   "Theatre & production",
+   "https://oakland.edu/smtd/",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "Henry Ford College",
+   "Dearborn, MI",
+   "Community college; check catalog for theatre/tech",
+   "https://www.hfcc.edu/",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "Macomb Community College",
+   "Warren, MI",
+   "Community college; check catalog for theatre/media",
+   "https://www.macomb.edu/",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "U-M School of Music, Theatre & Dance",
+   "Ann Arbor, MI",
+   "Theatre design & production",
+   "https://smtd.umich.edu/",
+   {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  ],
+  [
+   "Washtenaw Community College",
+   "Ann Arbor, MI",
+   "Community college; check catalog for audio/media",
+   "https://www.wccnet.edu/",
+   {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  ],
+  [
+   "Michigan State University: Theatre",
+   "East Lansing, MI",
+   "Theatre incl. design/tech",
+   "https://theatre.msu.edu/",
+   {
+    "state": "MI",
+    "metro": "Lansing"
+   }
+  ],
+  [
+   "Lansing Community College",
+   "Lansing, MI",
+   "Community college; check catalog for performing arts/tech",
+   "https://www.lcc.edu/",
+   {
+    "state": "MI",
+    "metro": "Lansing"
+   }
+  ],
+  [
+   "Grand Valley State University: Theatre",
+   "Allendale, MI",
+   "Theatre",
+   "https://www.gvsu.edu/theatre/",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "Grand Rapids Community College",
+   "Grand Rapids, MI",
+   "Community college; check catalog",
+   "https://www.grcc.edu/",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "Mott Community College",
+   "Flint, MI",
+   "Community college; check catalog",
+   "https://www.mcc.edu/",
+   {
+    "state": "MI",
+    "metro": "Flint"
+   }
+  ],
+  [
+   "Saginaw Valley State University: Theatre",
+   "University Center, MI",
+   "Theatre",
+   "https://www.svsu.edu/theatre/",
+   {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  ],
+  [
+   "Delta College",
+   "University Center, MI",
+   "Community college; check catalog",
+   "https://www.delta.edu/",
+   {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  ],
+  [
+   "Central Michigan University",
+   "Mount Pleasant, MI",
+   "Theatre & dance programs (statewide)",
+   "https://www.cmich.edu/",
+   {
+    "state": "MI",
+    "metro": "All"
+   }
+  ]
+ ],
+ "unions": [
+  {
+   "name": "IATSE (International)",
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "url": "https://iatse.net/",
+   "jobs": "https://iatse.net/local-union-directory/",
+   "phone": "",
+   "email": "",
+   "note": "Find any local via the directory."
+  },
+  {
+   "name": "Teamsters (International)",
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "url": "https://teamster.org/",
+   "jobs": "",
+   "phone": "",
+   "email": "",
+   "note": "Some trucking/convention work; check local jurisdiction."
+  },
+  {
+   "name": "IATSE Local 38 (Detroit)",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.iatse38.org/",
+   "jobs": "https://www.iatse38.org/?page=How20To20Join&zone=%2Funionactive%2Fview_page.cfm",
+   "phone": "313-870-9570",
+   "email": "info@iatse38.org",
+   "note": "Referral hall for Detroit theatres, arenas, convention halls; resumes: resumes@iatse38.org."
+  },
+  {
+   "name": "IATSE Local 395 (Ann Arbor)",
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "url": "https://iatse395.org/",
+   "jobs": "https://iatse395.org/contact/",
+   "phone": "734-845-0550",
+   "email": "local395@iatse395.org",
+   "note": "UMS, Michigan Theater, U-M events."
+  },
+  {
+   "name": "IATSE Local 274 (Lansing / Central & Northern MI)",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.iatse274.org/",
+   "jobs": "https://www.iatse274.org/employment.html",
+   "phone": "517-374-5570",
+   "email": "info@iatse274.org",
+   "note": "Referral list open; no experience necessary per site."
+  },
+  {
+   "name": "IATSE Local 26 (Grand Rapids / West MI)",
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "url": "https://www.iatse26.org/",
+   "jobs": "https://www.iatse26.org/contact/",
+   "phone": "616-742-5526",
+   "email": "mail@iatse26.org",
+   "note": "Apply in person at office for referral list."
+  },
+  {
+   "name": "IATSE Local 201 (Flint)",
+   "loc": {
+    "state": "MI",
+    "metro": "Flint"
+   },
+   "url": "https://iatse.net/local-union-directory/",
+   "jobs": "https://iatse.net/local-union-directory/",
+   "phone": "",
+   "email": "",
+   "note": "Exists per IATSE sources; no official site/phone verified, use the IATSE directory."
+  }
+ ],
+ "companies": [
+  [
+   "On Site Specialists (OSS)",
+   "AV technical crew & labor",
+   "https://ossdetroit.com/",
+   "248-585-4677",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "Prime AV: Detroit",
+   "Event production & AV",
+   "https://goprimeav.com/detroit/",
+   "313-998-3254",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "4Wall: Detroit",
+   "Production services & rental",
+   "https://www.4wall.com/production/detroit-mi",
+   "",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "Aerial Enterprises",
+   "Sound rental (Ann Arbor area since 1976, per IATSE 395)",
+   "https://www.aerialenterprises.com/",
+   "",
+   {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  ],
+  [
+   "Chase Creative",
+   "Staging, sound, lighting, video",
+   "https://chasecreative.com/",
+   "616-785-8660",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "OAV",
+   "AV services & event production",
+   "https://www.oavpro.com/",
+   "616-259-9193",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "Michigan Digital",
+   "Live event AV & streaming",
+   "https://www.michigandigital.com/",
+   "877-669-1290",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "Level 47 Productions",
+   "Sound & staging (listing page)",
+   "https://www.gigheaven.com/members/level47.html",
+   "",
+   {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  ],
+  [
+   "PRG",
+   "Lighting, video, audio, rigging",
+   "https://www.prg.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Solotech",
+   "Audio, video, lighting",
+   "https://solotech.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Clair Global",
+   "Live audio & AV systems",
+   "https://clairglobal.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "4Wall",
+   "Lighting/audio/video/rigging rental",
+   "https://www.4wall.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Upstaging",
+   "Lighting, video, trucking",
+   "https://www.upstaging.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Gallagher Staging",
+   "Staging & scenic manufacturing",
+   "https://gallagherstaging.com/",
+   "714-690-1559",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Stageco",
+   "Large-scale touring stages",
+   "https://www.stageco.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Rhino Staging",
+   "Professional crews for live events",
+   "https://www.rhinostaging.com/",
+   "888-468-7446",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Crew One",
+   "Stagehand labor",
+   "https://www.crewone.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Tribe Productions",
+   "Production services",
+   "https://www.tribeproductions.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Clearwing",
+   "Live events & systems integration",
+   "https://www.clearwing.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ]
+ ],
+ "venues": [
+  {
+   "name": "Fox Theatre",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.313presents.com/",
+   "labor": "IATSE Local 38",
+   "src": "Local 38 theatres page"
+  },
+  {
+   "name": "Fisher Theatre",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.broadwayindetroit.com/",
+   "labor": "IATSE Local 38",
+   "src": "Local 38 theatres page"
+  },
+  {
+   "name": "Detroit Opera House",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.detroitopera.org/",
+   "labor": "IATSE Local 38",
+   "src": "Local 38 theatres page"
+  },
+  {
+   "name": "Little Caesars Arena",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.313presents.com/",
+   "labor": "IATSE Local 38 (reported)",
+   "src": "WXYZ news report"
+  },
+  {
+   "name": "Huntington Place",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.huntingtonplacedetroit.com/",
+   "labor": "Huntington Place Mgmt (exclusive), IATSE Local 38 labor",
+   "src": "Show labor sheet"
+  },
+  {
+   "name": "Hill Auditorium / UMS venues",
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "url": "https://ums.org/",
+   "labor": "IATSE Local 395",
+   "src": "Local 395 client list"
+  },
+  {
+   "name": "Michigan Theater",
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "url": "https://www.michtheater.org/",
+   "labor": "IATSE Local 395",
+   "src": "Local 395 client list"
+  },
+  {
+   "name": "Wharton Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.whartoncenter.com/",
+   "labor": "IATSE Local 274",
+   "src": "Local 274 venues page"
+  },
+  {
+   "name": "Breslin Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.breslincenter.com/",
+   "labor": "IATSE Local 274",
+   "src": "Local 274 venues page"
+  },
+  {
+   "name": "Lansing Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.lansingcenter.com/",
+   "labor": "IATSE Local 274",
+   "src": "Local 274 venues page"
+  },
+  {
+   "name": "Van Andel Arena",
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "url": "https://www.vanandelarena.com/",
+   "labor": "IATSE Local 26",
+   "src": "Local 26 venue page"
+  },
+  {
+   "name": "DeVos Place / DeVos Performance Hall",
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "url": "https://www.devosplace.org/",
+   "labor": "IATSE Local 26",
+   "src": "Local 26 venue page"
+  },
+  {
+   "name": "The Whiting",
+   "loc": {
+    "state": "MI",
+    "metro": "Flint"
+   },
+   "url": "https://thewhiting.com/",
+   "labor": "Not verified",
+   "src": ""
+  },
+  {
+   "name": "Temple Theatre",
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   },
+   "url": "https://templetheatre.com/",
+   "labor": "Not verified",
+   "src": ""
+  },
+  {
+   "name": "Dow Event Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   },
+   "url": "https://www.doweventcenter.com/",
+   "labor": "Not verified",
+   "src": ""
+  }
+ ],
+ "omitted": [
+  "IATSE Local 786 (exists per IRS/org listings; craft & official site not verified)",
+  "IATSE Local 199 Detroit (not verified)",
+  "Saginaw/Bay City IATSE local (jurisdiction not verified)",
+  "'Stage Management' (Raymond / Stern): purchase link not verified",
+  "OSHA PDF fact sheets (osha.gov blocks automated checks; linked topic pages instead)",
+  "Yamaha handbook: not free (paid book only)",
+  "Sennheiser guides (not verified)",
+  "Premier Creative Group, Fantasee Integration, North Coast Studios, Amazing Audio: site or location not verified",
+  "Company phones left blank where not on official site",
+  "Tactical entities excluded by policy"
+ ]
+}
