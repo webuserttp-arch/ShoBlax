@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Crew Room · ShoBlax (MOCKUP)</title><link rel="stylesheet" href="style.css?v=11"><link rel="stylesheet" href="members.css?v=20261011e">
+<style>.hero{padding:20px 16px 12px}.hero h1{font-size:24px}#view{padding-bottom:20px}.ttl{padding:14px 16px 6px;color:var(--hi);font-size:18px}.empty{padding:24px 16px;font-size:14px}
+.newt{padding:0 16px}.newt textarea{width:100%;min-height:110px;background:#0f0f0f;border:1px solid var(--line);border-radius:10px;color:var(--hi);padding:12px;font:16px/1.35 inherit;margin-top:10px}</style></head><body>
+<header><a href="index.html"><img src="logo.svg?v=11" alt="ShoBlax"></a><nav><a href="index.html">Library</a></nav></header>
+<div class="hero"><span class="tag">Members only</span><h1>Crew Room</h1><p id="who"></p></div>
+<div id="view"></div><p class="note"><a href="privacy.html" style="color:#777">Privacy policy</a></p><div id="dock"></div>
+<script src="members-config.js?v=20261011e"></script><script src="members.js?v=20261011e"></script><script>
+const $=i=>document.getElementById(i),E=SBX.E,view=$('view'),dock=$('dock');let poll=null,cur=null,last='';
+const fmt=t=>{const d=new Date(t);return isNaN(d)?'':d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})};
+const unesc=s=>{const t=document.createElement('textarea');t.innerHTML=s;return t.value}; // server escapes; we re-escape via E() for display
+const safe=s=>E(unesc(s));
+function stop(){clearInterval(poll);poll=null}
+function gate(){stop();view.innerHTML='<div class="empty">The Crew Room is for members. Signing up is free and takes 10 seconds.</div>';
+ dock.innerHTML='<div class="bar"><a class="btn" href="index.html" style="flex:.6">Library</a><button class="btn pri" type="button" id="unlockBtn">🔓 Sign up free to join</button></div>';$('unlockBtn').onclick=SBX.openSheet}
+async function list(){stop();cur=null;history.replaceState(null,'','crew.html');
+ const r=await SBX.call('listThreads');if(!r.ok)return fail(r);
+ view.innerHTML='<div class="ttl">Threads</div>'+(r.threads.length?'<div class="th-l">'+r.threads.map(t=>`<a href="#t=${E(t.id)}" data-id="${E(t.id)}"><b>${safe(t.title)}</b><small>${safe(t.author)} · ${t.count} msg · ${fmt(t.lastActivity)}</small></a>`).join('')+'</div>':'<div class="empty">No threads yet. Start the first one.</div>');
+ view.querySelectorAll('[data-id]').forEach(a=>a.onclick=e=>{e.preventDefault();open(a.dataset.id)});
+ dock.innerHTML='<div class="bar"><a class="btn" href="index.html" style="flex:.6">Library</a><button class="btn pri" type="button" id="newBtn">＋ Start a thread</button></div>';$('newBtn').onclick=compose;
+ poll=setInterval(()=>{if(!document.hidden)refreshList()},10000)}
+async function refreshList(){const r=await SBX.call('listThreads');if(r.ok&&!cur)list()}
+function compose(){stop();view.innerHTML=`<div class="ttl">Start a thread</div><div class="newt"><input id="nt" maxlength="100" placeholder="Title (e.g. Best hoist pre-use checklist?)"><textarea id="nb" maxlength="1000" placeholder="First message"></textarea><p class="cnt"><span id="nc">0</span>/1000</p></div>`;
+ $('nb').oninput=()=>$('nc').textContent=$('nb').value.length;
+ dock.innerHTML='<div class="bar"><button class="btn" type="button" id="cx" style="flex:.6">Cancel</button><button class="btn pri" type="button" id="post">Post thread</button></div>';
+ $('cx').onclick=list;$('post').onclick=async()=>{$('post').disabled=true;const r=await SBX.call('startThread',{title:$('nt').value,body:$('nb').value});$('post').disabled=false;if(!r.ok)return SBX.toast(r.error);open(r.threadId)}}
+function msgHtml(m){return `<div class="msg${m.mine?' mine':''}" data-mid="${E(m.id)}"><div class="h"><b>${safe(m.author)}</b><span>${fmt(m.createdAt)}</span>${m.mine?'':'<button class="rp" type="button">Report</button>'}</div><p>${safe(m.body)}</p></div>`}
+async function open(id){stop();cur=id;location.hash='t='+id;const r=await SBX.call('getThread',{threadId:id});if(!r.ok)return fail(r);
+ view.innerHTML=`<div class="ttl"><a href="#" id="back" style="color:#888;text-decoration:none;font-size:14px;display:inline-flex;min-height:44px;align-items:center">← All threads</a><br>${safe(r.thread.title)}</div><div id="msgs">${r.messages.map(msgHtml).join('')}</div>`;
+ last=r.messages.length?r.messages[r.messages.length-1].createdAt:'';$('back').onclick=e=>{e.preventDefault();list()};
+ dock.innerHTML='<div class="comp"><textarea id="rb" maxlength="1000" rows="1" placeholder="Reply…" aria-label="Reply"></textarea><button class="btn pri" type="button" id="send">Send</button></div>';
+ $('send').onclick=send;window.scrollTo(0,document.body.scrollHeight);
+ poll=setInterval(async()=>{if(document.hidden||cur!==id)return;const n=await SBX.call('getThread',{threadId:id,since:last});if(n.ok&&cur===id)append(n.messages)},10000)}
+function append(ms){const box=$('msgs');if(!box)return;ms.forEach(m=>{if(!box.querySelector(`[data-mid="${CSS.escape(m.id)}"]`)){box.insertAdjacentHTML('beforeend',msgHtml(m));last=m.createdAt}})}
+async function send(){const b=$('rb').value.trim();if(!b)return;$('send').disabled=true;const r=await SBX.call('reply',{threadId:cur,body:b});$('send').disabled=false;
+ if(!r.ok)return SBX.toast(r.error);$('rb').value='';append([r.message]);window.scrollTo(0,document.body.scrollHeight)}
+view.addEventListener('click',async e=>{const b=e.target.closest('.rp');if(!b)return;if(!confirm('Report this message to the ShoBlax owner?'))return;
+ const r=await SBX.call('report',{messageId:b.closest('.msg').dataset.mid});if(r.ok){b.textContent='Reported';b.disabled=true;SBX.toast('Thanks. The owner will review it.')}else SBX.toast(r.error)});
+function fail(r){if(/sign up|not active/i.test(r.error||'')){localStorage.removeItem('sbx_member');return start()}view.innerHTML=`<div class="empty">${E(r.error)}</div>`}
+function start(){const m=SBX.get();$('who').textContent=m?`Signed in as ${m.display} on this device.`:'';if(!SBX.isMember())return gate();
+ const h=location.hash.match(/t=([\w]+)/);h?open(h[1]):list()}
+document.addEventListener('sbx:member',start);start();
+</script></body></html>
