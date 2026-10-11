@@ -1,0 +1,3615 @@
+{
+ "version": "2026-10-11",
+ "lastVerified": "10/11/2026",
+ "topics": [
+  [
+   "rig",
+   "Rigging"
+  ],
+  [
+   "fall",
+   "Fall protection & PPE"
+  ],
+  [
+   "knots",
+   "Knots & ropework"
+  ],
+  [
+   "theatre",
+   "Theatre / stagecraft & fly systems"
+  ],
+  [
+   "carps",
+   "Carpentry & scenery"
+  ],
+  [
+   "lx",
+   "Lighting"
+  ],
+  [
+   "audio",
+   "Audio"
+  ],
+  [
+   "video",
+   "Video & LED"
+  ],
+  [
+   "power",
+   "Power & distribution"
+  ],
+  [
+   "staging",
+   "Staging & structures"
+  ],
+  [
+   "lifts",
+   "Forklift / lifts / equipment"
+  ],
+  [
+   "load",
+   "Load-in/out & trucking"
+  ],
+  [
+   "wardrobe",
+   "Wardrobe"
+  ],
+  [
+   "sm",
+   "Stage & production management"
+  ],
+  [
+   "careers",
+   "Touring life & careers"
+  ],
+  [
+   "safety",
+   "Safety & standards"
+  ],
+  [
+   "event",
+   "Event safety & crowd management"
+  ],
+  [
+   "unions",
+   "Unions & labor"
+  ],
+  [
+   "schools",
+   "Schools & certification"
+  ],
+  [
+   "companies",
+   "Production companies"
+  ],
+  [
+   "venues",
+   "Venues"
+  ]
+ ],
+ "locations": {
+  "MI": {
+   "name": "Michigan",
+   "metros": {
+    "Detroit": [
+     "detroit",
+     "dearborn",
+     "warren",
+     "rochester",
+     "rochester hills",
+     "royal oak",
+     "southfield",
+     "troy",
+     "clarkston",
+     "sterling heights",
+     "livonia",
+     "novi",
+     "pontiac",
+     "auburn hills",
+     "ferndale",
+     "clinton township"
+    ],
+    "Ann Arbor": [
+     "ann arbor",
+     "ypsilanti"
+    ],
+    "Lansing": [
+     "lansing",
+     "east lansing",
+     "brooklyn"
+    ],
+    "Grand Rapids": [
+     "grand rapids",
+     "wyoming",
+     "allendale",
+     "walker",
+     "kentwood"
+    ],
+    "Flint": [
+     "flint",
+     "burton",
+     "grand blanc"
+    ],
+    "Saginaw/Bay City": [
+     "saginaw",
+     "bay city",
+     "university center",
+     "midland"
+    ]
+   }
+  }
+ },
+ "items": [
+  {
+   "type": "Video",
+   "t": "The Stagehands (Career Guides)",
+   "by": "American Theatre Wing",
+   "note": "Respected org's overview of the job & career paths.",
+   "url": "https://www.youtube.com/watch?v=W1cpJ34WwQg",
+   "topics": [
+    "careers",
+    "unions"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "W1cpJ34WwQg"
+  },
+  {
+   "type": "Video",
+   "t": "Must Have Gear for Your FIRST Stagehand Gig!",
+   "by": "The Backstage Diary",
+   "note": "What to bring to call one — pairs with our gear lists.",
+   "url": "https://www.youtube.com/watch?v=n35bVwHbr8U",
+   "topics": [
+    "careers",
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "n35bVwHbr8U"
+  },
+  {
+   "type": "Video",
+   "t": "Rule Number 1 for Backstage Crew (Stage Hand 101 Pt 8)",
+   "by": "Sammy Bones",
+   "note": "Working-hand etiquette from a real crew member.",
+   "url": "https://www.youtube.com/watch?v=k6U5TzgGToQ",
+   "topics": [
+    "careers",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "k6U5TzgGToQ"
+  },
+  {
+   "type": "Video",
+   "t": "How latches on road cases work (Stage Hand 101 Pt 4)",
+   "by": "Sammy Bones",
+   "note": "Basic but every new hand needs it on the dock.",
+   "url": "https://www.youtube.com/watch?v=5lWp6lEx5oI",
+   "topics": [
+    "load"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "5lWp6lEx5oI"
+  },
+  {
+   "type": "Video",
+   "t": "Wheel locks & set pieces (Stage Hand 101 Pt 3)",
+   "by": "Sammy Bones",
+   "note": "Moving scenery safely; casters and locks.",
+   "url": "https://www.youtube.com/watch?v=prnooirQyWU",
+   "topics": [
+    "carps",
+    "load",
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "prnooirQyWU"
+  },
+  {
+   "type": "Video",
+   "t": "Coffin Lock Stage Riser Assembly (Pt 7)",
+   "by": "Sammy Bones",
+   "note": "Hands-on deck/riser build — very common task.",
+   "url": "https://www.youtube.com/watch?v=y_wTIu-UMvg",
+   "topics": [
+    "carps",
+    "staging"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "y_wTIu-UMvg"
+  },
+  {
+   "type": "Video",
+   "t": "Manual Counterweight Rigging: A is for Arbor",
+   "by": "Vertigo™",
+   "note": "Clear intro to fly systems from a rigging-training firm.",
+   "url": "https://www.youtube.com/watch?v=TFon5MSQUBM",
+   "topics": [
+    "theatre",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "TFon5MSQUBM"
+  },
+  {
+   "type": "Video",
+   "t": "7 Essential Knots Every Entertainment Rigger Should Master",
+   "by": "CMCO",
+   "note": "From the maker of CM hoists; industry-specific.",
+   "url": "https://www.youtube.com/watch?v=SZqwNvztfcA",
+   "topics": [
+    "knots",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "SZqwNvztfcA"
+  },
+  {
+   "type": "Video",
+   "t": "How to tie a Bowline Knot",
+   "by": "The How To Channel",
+   "note": "Simple, slow, easy to follow.",
+   "url": "https://www.youtube.com/watch?v=eQYVnOWlIZI",
+   "topics": [
+    "knots"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "eQYVnOWlIZI"
+  },
+  {
+   "type": "Video",
+   "t": "How To Tie A Clove Hitch Knot",
+   "by": "WhyKnot",
+   "note": "Clean step-by-step close-up.",
+   "url": "https://www.youtube.com/watch?v=EKRFawQCP0Y",
+   "topics": [
+    "knots"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "EKRFawQCP0Y"
+  },
+  {
+   "type": "Video",
+   "t": "Correct way to connect your spanset to the shackle",
+   "by": "Cal State LA A&L Productions",
+   "note": "Short, specific, entertainment-context technique.",
+   "url": "https://www.youtube.com/watch?v=1oLm4o5FGEo",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "1oLm4o5FGEo"
+  },
+  {
+   "type": "Video",
+   "t": "Should Your Shackle Be Rigged Pin Up or Pin Down?",
+   "by": "The Lifting & Rigging Channel®",
+   "note": "Explains shackle orientation basics.",
+   "url": "https://www.youtube.com/watch?v=ZqH3NF2LKNY",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "ZqH3NF2LKNY"
+  },
+  {
+   "type": "Video",
+   "t": "CM Chain Hoist Demo",
+   "by": "Rose Brand",
+   "note": "Industry supplier's demo of the standard CM motor.",
+   "url": "https://www.youtube.com/watch?v=RYbMlyaRtw8",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "RYbMlyaRtw8"
+  },
+  {
+   "type": "Video",
+   "t": "Arena Chalk Markings",
+   "by": "Area Four Industries",
+   "note": "How points get marked out on the arena floor.",
+   "url": "https://www.youtube.com/watch?v=gm9vktPWbs4",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "gm9vktPWbs4"
+  },
+  {
+   "type": "Video",
+   "t": "How to Inspect and Don a Full-Body Harness",
+   "by": "FallTech",
+   "note": "Manufacturer walk-through: inspect, then fit.",
+   "url": "https://www.youtube.com/watch?v=seuWV6qTl4k",
+   "topics": [
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "seuWV6qTl4k"
+  },
+  {
+   "type": "Video",
+   "t": "How to Fit a 3M™ DBI-SALA® ExoFit™ X300 Harness",
+   "by": "The Lifting & Rigging Channel®",
+   "note": "Detailed fitting of a common 3M harness.",
+   "url": "https://www.youtube.com/watch?v=67JFVhfCkrQ",
+   "topics": [
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "67JFVhfCkrQ"
+  },
+  {
+   "type": "Video",
+   "t": "#PetzlTips — Connecting Equipment to the VOLT Harness",
+   "by": "Petzl Professional",
+   "note": "Official Petzl tip on harness connections.",
+   "url": "https://www.youtube.com/watch?v=fzoeYKIzD7c",
+   "topics": [
+    "fall",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "fzoeYKIzD7c"
+  },
+  {
+   "type": "Video",
+   "t": "PPE Safety Training for Construction Workers",
+   "by": "SafetyVideos.com",
+   "note": "General PPE basics: eyes, hands, head, feet.",
+   "url": "https://www.youtube.com/watch?v=BQDHxAwk9Js",
+   "topics": [
+    "fall",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "BQDHxAwk9Js"
+  },
+  {
+   "type": "Video",
+   "t": "Forklift Safety Video — OSHA Training",
+   "by": "SafetyVideos.com",
+   "note": "Awareness only — operating requires employer certification.",
+   "url": "https://www.youtube.com/watch?v=fPhynD2yuBE",
+   "topics": [
+    "lifts",
+    "safety",
+    "load"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "fPhynD2yuBE"
+  },
+  {
+   "type": "Video",
+   "t": "Scissor Lift Safety Tips",
+   "by": "Southern Air",
+   "note": "Pre-use checks and hazards for scissor lifts.",
+   "url": "https://www.youtube.com/watch?v=K1WwYKwjV-8",
+   "topics": [
+    "lifts",
+    "safety",
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "K1WwYKwjV-8"
+  },
+  {
+   "type": "Video",
+   "t": "How to Wrap Cables Like a Pro: Over/Under (Roadie Wrap)",
+   "by": "Rattlesnake Cable Company",
+   "note": "The over-under wrap, explained by a cable maker.",
+   "url": "https://www.youtube.com/watch?v=n50I-bPEou8",
+   "topics": [
+    "audio",
+    "load"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "n50I-bPEou8"
+  },
+  {
+   "type": "Video",
+   "t": "Types of stage cables (Stage Hand 101 Pt 5)",
+   "by": "Sammy Bones",
+   "note": "XLR, power, data — learn to ID cable fast.",
+   "url": "https://www.youtube.com/watch?v=oXD6Qu9kn8k",
+   "topics": [
+    "audio",
+    "power",
+    "video"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "oXD6Qu9kn8k"
+  },
+  {
+   "type": "Video",
+   "t": "Setting Up a Sound System for a Live Event",
+   "by": "Audio University",
+   "note": "Well-produced step-by-step system setup.",
+   "url": "https://www.youtube.com/watch?v=4t6Z2w1tL30",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "4t6Z2w1tL30"
+  },
+  {
+   "type": "Video",
+   "t": "How to focus a stage light",
+   "by": "Interlochen Center for the Arts",
+   "note": "Focus-call basics from an arts school.",
+   "url": "https://www.youtube.com/watch?v=Pgzcg5AL2p0",
+   "topics": [
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "Pgzcg5AL2p0"
+  },
+  {
+   "type": "Video",
+   "t": "How to Build An LED Video Wall (01)",
+   "by": "LED Walls by squareV",
+   "note": "Part 1 of a clear LED wall series.",
+   "url": "https://www.youtube.com/watch?v=NLD9fXdZJs8",
+   "topics": [
+    "video"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "NLD9fXdZJs8"
+  },
+  {
+   "type": "Video",
+   "t": "Eos Family Video Learning Series",
+   "by": "ETC",
+   "note": "Official console training playlist.",
+   "url": "https://www.youtube.com/watch?v=4joUizLBXAg",
+   "topics": [
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "4joUizLBXAg"
+  },
+  {
+   "type": "Video",
+   "t": "Patch by Channel (Eos)",
+   "by": "ETC",
+   "note": "Patching basics on ETC consoles.",
+   "url": "https://www.youtube.com/watch?v=SbWCYd0POcE",
+   "topics": [
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "SbWCYd0POcE"
+  },
+  {
+   "type": "Video",
+   "t": "What is Stage Lighting | The Basics (1)",
+   "by": "GS Lighting Solutions",
+   "note": "Beginner overview from a lighting company.",
+   "url": "https://www.youtube.com/watch?v=2HFLnm4IDIE",
+   "topics": [
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "2HFLnm4IDIE"
+  },
+  {
+   "type": "Video",
+   "t": "Lighting Insights: Choosing The Right Lens Tubes",
+   "by": "CHAUVET Professional",
+   "note": "Manufacturer tips on optics.",
+   "url": "https://www.youtube.com/watch?v=qTyigMsCmIk",
+   "topics": [
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "qTyigMsCmIk"
+  },
+  {
+   "type": "Video",
+   "t": "Tech Talk: Running REM LED Video Screens (NovaStar)",
+   "by": "CHAUVET Professional",
+   "note": "LED wall processing from the manufacturer.",
+   "url": "https://www.youtube.com/watch?v=vinp0VrkUQM",
+   "topics": [
+    "video"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "vinp0VrkUQM"
+  },
+  {
+   "type": "Video",
+   "t": "LED Wall Setup 02: Connecting LED Video Panels",
+   "by": "LED Walls by squareV",
+   "note": "Data & power runs between panels.",
+   "url": "https://www.youtube.com/watch?v=1HzOtcPlluE",
+   "topics": [
+    "video",
+    "power"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "1HzOtcPlluE"
+  },
+  {
+   "type": "Video",
+   "t": "Line Source Behavior and Optimization (L-Acoustics 101)",
+   "by": "L-Acoustics",
+   "note": "Official line-array education.",
+   "url": "https://www.youtube.com/watch?v=W8x-ZraF-iQ",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "W8x-ZraF-iQ"
+  },
+  {
+   "type": "Video",
+   "t": "SL-Series tutorial: GSL/KSL overview & rigging accessories",
+   "by": "d&b audiotechnik",
+   "note": "Manufacturer PA rigging hardware.",
+   "url": "https://www.youtube.com/watch?v=-BIAyXqnZQM",
+   "topics": [
+    "audio",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "-BIAyXqnZQM"
+  },
+  {
+   "type": "Video",
+   "t": "All-Pass Filters in the Real World",
+   "by": "Meyer Sound",
+   "note": "Meyer education on system tuning.",
+   "url": "https://www.youtube.com/watch?v=_KAa39OcMoo",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "_KAa39OcMoo"
+  },
+  {
+   "type": "Video",
+   "t": "Do This Before Setting Up a Live Sound System",
+   "by": "Audio University",
+   "note": "Pre-setup checklist.",
+   "url": "https://www.youtube.com/watch?v=7JJTBUhQjcA",
+   "topics": [
+    "audio",
+    "load"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "7JJTBUhQjcA"
+  },
+  {
+   "type": "Video",
+   "t": "Wireless Workbench: Frequency Coordination",
+   "by": "Shure",
+   "note": "Official RF coordination how-to.",
+   "url": "https://www.youtube.com/watch?v=FlVaP-IVivo",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "FlVaP-IVivo"
+  },
+  {
+   "type": "Video",
+   "t": "Shure Wireless Workbench 7 overview",
+   "by": "Audio University",
+   "note": "Managing wireless systems.",
+   "url": "https://www.youtube.com/watch?v=cxXVj-8USpg",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "cxXVj-8USpg"
+  },
+  {
+   "type": "Video",
+   "t": "ABSORBICA Fall Arrest Lanyards: Range Overview",
+   "by": "Petzl Professional",
+   "note": "Energy-absorbing lanyards explained.",
+   "url": "https://www.youtube.com/watch?v=4GVbPEmQigY",
+   "topics": [
+    "fall",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "4GVbPEmQigY"
+  },
+  {
+   "type": "Video",
+   "t": "AVAO harnesses for fall arrest & positioning",
+   "by": "Petzl Professional",
+   "note": "Harness types & uses.",
+   "url": "https://www.youtube.com/watch?v=nJeTze_4lCs",
+   "topics": [
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "nJeTze_4lCs"
+  },
+  {
+   "type": "Video",
+   "t": "Personal Protective Equipment | Construction Safety",
+   "by": "Construction COE",
+   "note": "General PPE awareness.",
+   "url": "https://www.youtube.com/watch?v=PFfluLWsabk",
+   "topics": [
+    "fall",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "PFfluLWsabk"
+  },
+  {
+   "type": "Video",
+   "t": "Shackles and how to use them in rigging",
+   "by": "To The Top Crane",
+   "note": "Shackle types & use from a crane firm.",
+   "url": "https://www.youtube.com/watch?v=9AFcPPKghu8",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "9AFcPPKghu8"
+  },
+  {
+   "type": "Video",
+   "t": "Do Rigging Inspectors Need to Be Certified?",
+   "by": "The Lifting & Rigging Channel®",
+   "note": "Inspection & competency basics.",
+   "url": "https://www.youtube.com/watch?v=-njT5E-Udz8",
+   "topics": [
+    "rig",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "-njT5E-Udz8"
+  },
+  {
+   "type": "Video",
+   "t": "BNW Rigging: ETCP Project",
+   "by": "ETCP",
+   "note": "Official ETCP channel.",
+   "url": "https://www.youtube.com/watch?v=5-TJcIfBfDM",
+   "topics": [
+    "rig",
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "5-TJcIfBfDM"
+  },
+  {
+   "type": "Video",
+   "t": "Theatre Flybar Basics",
+   "by": "Gearhouse Splitbeam",
+   "note": "Fly bar intro from a production company.",
+   "url": "https://www.youtube.com/watch?v=QJXw0iP7NKM",
+   "topics": [
+    "theatre",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "QJXw0iP7NKM"
+  },
+  {
+   "type": "Video",
+   "t": "Flying System Operators",
+   "by": "Vertigo™",
+   "note": "Fly-rail operator training firm.",
+   "url": "https://www.youtube.com/watch?v=BTQEqc3mg1s",
+   "topics": [
+    "theatre",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "BTQEqc3mg1s"
+  },
+  {
+   "type": "Video",
+   "t": "Loading Weight on the Loading Rail",
+   "by": "Phoenix Union Technical Theatre",
+   "note": "Arbor loading procedure, school program.",
+   "url": "https://www.youtube.com/watch?v=9iAVsaUGbig",
+   "topics": [
+    "theatre",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "9iAVsaUGbig"
+  },
+  {
+   "type": "Video",
+   "t": "Stage Curtains, Drapery & Backdrops overview",
+   "by": "Rose Brand",
+   "note": "Drape types from the supplier.",
+   "url": "https://www.youtube.com/watch?v=0nsjrSrC3bg",
+   "topics": [
+    "theatre",
+    "carps"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "0nsjrSrC3bg"
+  },
+  {
+   "type": "Video",
+   "t": "Example Of A Tab Curtain",
+   "by": "Rose Brand",
+   "note": "How a tab curtain works.",
+   "url": "https://www.youtube.com/watch?v=BCtFrooGsbc",
+   "topics": [
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "BCtFrooGsbc"
+  },
+  {
+   "type": "Video",
+   "t": "Pipe & Base 2.0 Instructions",
+   "by": "Rose Brand",
+   "note": "Pipe & drape assembly.",
+   "url": "https://www.youtube.com/watch?v=Gt3vetVwcuY",
+   "topics": [
+    "staging",
+    "carps"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "Gt3vetVwcuY"
+  },
+  {
+   "type": "Video",
+   "t": "Attaching Guardrails to Steeldeck® Stages",
+   "by": "Steeldeck Rentals",
+   "note": "Stage-deck guardrail install.",
+   "url": "https://www.youtube.com/watch?v=hE1nhj8HAcc",
+   "topics": [
+    "staging",
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "hE1nhj8HAcc"
+  },
+  {
+   "type": "Video",
+   "t": "Soft/Theatrical/Broadway Style Flats",
+   "by": "Cal State LA A&L Productions",
+   "note": "Building soft flats.",
+   "url": "https://www.youtube.com/watch?v=8RptInZOF4M",
+   "topics": [
+    "carps",
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "8RptInZOF4M"
+  },
+  {
+   "type": "Video",
+   "t": "Stock Scenery Construction Handbook: building flats",
+   "by": "Stage Seminars",
+   "note": "Scenery construction basics.",
+   "url": "https://www.youtube.com/watch?v=jfn77XpksEM",
+   "topics": [
+    "carps"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "jfn77XpksEM"
+  },
+  {
+   "type": "Video",
+   "t": "How Do Stage Managers Call the Show? (Part 1)",
+   "by": "Half Hour Call",
+   "note": "Show-calling explained.",
+   "url": "https://www.youtube.com/watch?v=0m8BZebWKbM",
+   "topics": [
+    "sm",
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "0m8BZebWKbM"
+  },
+  {
+   "type": "Video",
+   "t": "Call Cues with our Stage Manager",
+   "by": "Arizona Theatre Company",
+   "note": "Real SM calling cues.",
+   "url": "https://www.youtube.com/watch?v=6rHowTt2qwY",
+   "topics": [
+    "sm"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "6rHowTt2qwY"
+  },
+  {
+   "type": "Video",
+   "t": "Broadway Show Calling Demo",
+   "by": "Broadway Symposium",
+   "note": "Broadway SM demo.",
+   "url": "https://www.youtube.com/watch?v=LcYgbwv3GP0",
+   "topics": [
+    "sm"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "LcYgbwv3GP0"
+  },
+  {
+   "type": "Video",
+   "t": "Meet The Gaffer #39: Basic Distro",
+   "by": "Meet The Gaffer",
+   "note": "Power distro basics (film, applies live).",
+   "url": "https://www.youtube.com/watch?v=GbiwnN0jtyg",
+   "topics": [
+    "power"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "GbiwnN0jtyg"
+  },
+  {
+   "type": "Video",
+   "t": "Basic On-Set Electric class",
+   "by": "IATSE Local 479",
+   "note": "Union electric fundamentals class.",
+   "url": "https://www.youtube.com/watch?v=NWc7fQeV_5E",
+   "topics": [
+    "power",
+    "unions"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "NWc7fQeV_5E"
+  },
+  {
+   "type": "Video",
+   "t": "How to operate a forklift safely",
+   "by": "SAIF Corporation",
+   "note": "Insurer-produced safety procedures.",
+   "url": "https://www.youtube.com/watch?v=qshh-5BL8ow",
+   "topics": [
+    "lifts",
+    "load",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "qshh-5BL8ow"
+  },
+  {
+   "type": "Video",
+   "t": "Scissor Lift Safety: Fall Protection Explained",
+   "by": "Tawney Insurance & Safety Solutions",
+   "note": "Fall protection on scissor lifts.",
+   "url": "https://www.youtube.com/watch?v=rp89xJxdDYQ",
+   "topics": [
+    "lifts",
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "rp89xJxdDYQ"
+  },
+  {
+   "type": "Video",
+   "t": "Three Lightning-Fast Groundhog Day Costume Changes",
+   "by": "TheaterMania",
+   "note": "Broadway quick-change crew work.",
+   "url": "https://www.youtube.com/watch?v=S17PgZ4RFUY",
+   "topics": [
+    "wardrobe"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "S17PgZ4RFUY"
+  },
+  {
+   "type": "Video",
+   "t": "How Do They Change Costumes So Fast?",
+   "by": "Victoria and Albert Museum",
+   "note": "Quick-change rigging of costumes.",
+   "url": "https://www.youtube.com/watch?v=5vYgCmLRFcg",
+   "topics": [
+    "wardrobe"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "5vYgCmLRFcg"
+  },
+  {
+   "type": "Video",
+   "t": "What goes up must come down",
+   "by": "IATSE 122 Official",
+   "note": "Union local load-in/out time-lapse.",
+   "url": "https://www.youtube.com/watch?v=yQQNBTGMT3Y",
+   "topics": [
+    "load",
+    "unions"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "yQQNBTGMT3Y"
+  },
+  {
+   "type": "Video",
+   "t": "New Member Training 1: History of the IATSE",
+   "by": "IATSE Local 140",
+   "note": "Union history for new hands.",
+   "url": "https://www.youtube.com/watch?v=xpriI1lpqEU",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "xpriI1lpqEU"
+  },
+  {
+   "type": "Video",
+   "t": "Production! Training Video (USITT21)",
+   "by": "USITT",
+   "note": "From the US theatre-tech institute.",
+   "url": "https://www.youtube.com/watch?v=Ksh7zpQbVdI",
+   "topics": [
+    "theatre",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "Ksh7zpQbVdI"
+  },
+  {
+   "type": "Video",
+   "t": "Keith Still: crowd safety at events",
+   "by": "Event Safety Institute",
+   "note": "Crowd science basics.",
+   "url": "https://www.youtube.com/watch?v=GIwdNJdQ5n0",
+   "topics": [
+    "event"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "GIwdNJdQ5n0"
+  },
+  {
+   "type": "Video",
+   "t": "The Hidden Crowd Engineering Behind Event Venues",
+   "by": "The Wall Street Journal",
+   "note": "Crowd flow & venue design.",
+   "url": "https://www.youtube.com/watch?v=L2XfHREa0j0",
+   "topics": [
+    "event",
+    "venues"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "vid": "L2XfHREa0j0"
+  },
+  {
+   "type": "Book",
+   "t": "Entertainment Rigging (2nd ed.)",
+   "by": "Harry Donovan",
+   "note": "The arena-rigging bible: shackles to force math. (ITI Store)",
+   "url": "https://store.iti.com/products/entertainment-rigging-2nd-edition",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9780972338110",
+   "bookshop": ""
+  },
+  {
+   "type": "Book",
+   "t": "Stage Rigging Handbook (3rd ed.)",
+   "by": "Jay O. Glerum",
+   "note": "Theatre fly systems: operation, inspection, training. (Amazon)",
+   "url": "https://www.amazon.com/Stage-Rigging-Handbook-Third-Glerum/dp/0809327414",
+   "topics": [
+    "rig",
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9780809327416",
+   "bookshop": "https://bookshop.org/p/books/stage-rigging-handbook-third-edition-jay-o-glerum-m-a-b-a/0518536f7493d12b"
+  },
+  {
+   "type": "Book",
+   "t": "Backstage Handbook",
+   "by": "Paul Carter",
+   "note": "Pocket almanac of tools, hardware, electrics, shop math. (Broadway Press)",
+   "url": "https://broadwaypress.com/bookpages/backstagehandbook.html",
+   "topics": [
+    "carps",
+    "theatre",
+    "power"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9780911747393",
+   "bookshop": ""
+  },
+  {
+   "type": "Book",
+   "t": "Stage Lighting Design: The Art, the Craft, the Life",
+   "by": "Richard Pilbrow",
+   "note": "Classic lighting-design text with pro interviews. (Nick Hern Books)",
+   "url": "https://www.nickhernbooks.co.uk/stage-lighting-design",
+   "topics": [
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9781854599964",
+   "bookshop": ""
+  },
+  {
+   "type": "Book",
+   "t": "The Sound Reinforcement Handbook (2nd ed.)",
+   "by": "Gary Davis & Ralph Jones (Yamaha)",
+   "note": "The standard live-audio fundamentals reference. (Hal Leonard)",
+   "url": "https://www.halleonard.com/product/500964/the-sound-reinforcement-handbook-second-edition",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9780881889000",
+   "bookshop": "https://bookshop.org/p/books/sound-reinforcement-handbook-gary-davis-dr/200e34dcce88183a"
+  },
+  {
+   "type": "Book",
+   "t": "Concert Lighting (4th ed.)",
+   "by": "James Moody & Paul Dexter",
+   "note": "Touring/concert lighting art and business. (Routledge)",
+   "url": "https://www.routledge.com/Concert-Lighting-The-Art-and-Business-of-Entertainment-Lighting/Moody-Dexter/p/book/9781138942912",
+   "topics": [
+    "lx",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9781138942912",
+   "bookshop": "https://bookshop.org/p/books/concert-lighting-the-art-and-business-of-entertainment-lighting-james-moody/68a3bf43e1ba921f"
+  },
+  {
+   "type": "Book",
+   "t": "Electricity for the Entertainment Electrician & Technician",
+   "by": "Richard Cadena",
+   "note": "Power distribution for live events, explained practically. (Amazon)",
+   "url": "https://www.amazon.com/dp/0367249472",
+   "topics": [
+    "power",
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9780367249472",
+   "bookshop": "https://bookshop.org/p/books/electricity-for-the-entertainment-electrician-technician-a-practical-guide-for-power-distribution-in-live-event-production-richard-cadena/1e7cd932cb5bc468"
+  },
+  {
+   "type": "Book",
+   "t": "Show Networks and Control Systems",
+   "by": "John Huntington",
+   "note": "DMX, networking & show control (note: Huntington, not Cadena). (Author site)",
+   "url": "https://www.controlgeek.net/",
+   "topics": [
+    "lx",
+    "video",
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9780615655901",
+   "bookshop": ""
+  },
+  {
+   "type": "Book",
+   "t": "Sound Systems: Design and Optimization (3rd ed.)",
+   "by": "Bob McCarthy",
+   "note": "System tuning/alignment from Meyer Sound's optimization lead. (Routledge)",
+   "url": "https://www.routledge.com/Sound-Systems-Design-and-Optimization-Modern-Techniques-and-Tools-for-Sound-System-Design-and-Alignment/McCarthy/p/book/9780415731010",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9780415731010",
+   "bookshop": "https://bookshop.org/p/books/sound-systems-design-and-optimization-modern-techniques-and-tools-for-sound-system-design-and-alignment-bob-mccarthy/c90d756f3d47708d"
+  },
+  {
+   "type": "Book",
+   "t": "Concert Tour Production Management",
+   "by": "John Vasey",
+   "note": "How tours are planned, advanced and run. (Amazon)",
+   "url": "https://www.amazon.com/dp/1138132683",
+   "topics": [
+    "sm",
+    "careers",
+    "load"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9781138132689",
+   "bookshop": "https://bookshop.org/p/books/concert-tour-production-management-john-vasey/990e683926802f08"
+  },
+  {
+   "type": "Book",
+   "t": "The Tour Book",
+   "by": "Andy Reynolds",
+   "note": "Touring logistics and crew roles end to end. (Amazon)",
+   "url": "https://www.amazon.com/dp/1435459547",
+   "topics": [
+    "careers",
+    "load",
+    "sm"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9781435459540",
+   "bookshop": ""
+  },
+  {
+   "type": "Book",
+   "t": "The Stage Manager's Toolkit",
+   "by": "Laurie Kincman",
+   "note": "Templates & communication for stage management. (Amazon)",
+   "url": "https://www.amazon.com/dp/1032540338",
+   "topics": [
+    "sm"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9781032540337",
+   "bookshop": "https://bookshop.org/p/books/the-stage-manager-s-toolkit-templates-and-communication-techniques-to-guide-your-theatre-production-from-first-meeting-to-final-performance-laurie-kin/80f353542c05da53"
+  },
+  {
+   "type": "Book",
+   "t": "The Event Safety Guide",
+   "by": "Event Safety Alliance",
+   "note": "US live-event safety practices in one manual. (Skyhorse)",
+   "url": "https://www.skyhorsepublishing.com/9781629147611/the-event-safety-guide/",
+   "topics": [
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "isbn": "9781629147611",
+   "bookshop": "https://bookshop.org/p/books/the-event-safety-guide-a-guide-to-health-safety-and-welfare-at-live-entertainment-events-in-the-united-states/205287b3b4729c01"
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ESTA TSP: free ANSI standards & recommended practices",
+   "by": "ESTA",
+   "note": "All published TSP documents, free PDF downloads.",
+   "url": "https://tsp.esta.org/tsp/documents/published_docs.php",
+   "topics": [
+    "safety",
+    "rig",
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI ES1.7-2021 Event Safety: Weather Preparedness",
+   "by": "ESTA / ESA",
+   "note": "Free standard for event weather planning.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20ES1.7-2021.pdf",
+   "topics": [
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "The Event Safety Guide (PDF)",
+   "by": "Event Safety Alliance",
+   "note": "Free PDF edition hosted by ESA.",
+   "url": "https://eventsafetyalliance.org/s/TheEventSafetyGuide.pdf",
+   "topics": [
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ESA Standards & Guidance",
+   "by": "Event Safety Alliance",
+   "note": "Index of ESA's free guidance documents.",
+   "url": "https://eventsafetyalliance.org/standards-guidance-2",
+   "topics": [
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "OSHA Fall Protection",
+   "by": "OSHA",
+   "note": "Fall-protection rules, fact sheets & publications.",
+   "url": "https://www.osha.gov/fall-protection",
+   "topics": [
+    "fall",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "OSHA Powered Industrial Trucks (Forklifts)",
+   "by": "OSHA",
+   "note": "Forklift QuickCard, daily checklists, training rules.",
+   "url": "https://www.osha.gov/powered-industrial-trucks",
+   "topics": [
+    "lifts",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "CM Lodestar Operating Manual",
+   "by": "Columbus McKinnon",
+   "note": "Official manual for the industry-standard chain motor.",
+   "url": "https://www.cmhoist.com/wp-content/uploads/sites/6/lodestar-classic-manual.pdf",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "CM Lodestar VS Manual",
+   "by": "Columbus McKinnon",
+   "note": "Install/operate/maintain the variable-speed Lodestar.",
+   "url": "https://www.cmhoist.com/wp-content/uploads/sites/6/lodestar-vs-manual.pdf",
+   "topics": [
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "Microphone Techniques for Live Sound Reinforcement",
+   "by": "Shure",
+   "note": "Free mic placement & feedback guide.",
+   "url": "https://www.shure.com/damfiles/default/global/documents/publications/en/performance-production/microphone_techniques_for_live_sound_reinforcement_english.pdf-3df433145fca686a736beeb5da588efa.pdf",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "Audio Systems Guide for Theater Performances",
+   "by": "Shure",
+   "note": "Wired/wireless mics for theatre.",
+   "url": "https://content-files.shure.com/Pubs/audio-systems-guide-for-theater-performances/theater_guide_ea.pdf",
+   "topics": [
+    "audio",
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "Severe Weather Planning Guide for Event Venues",
+   "by": "National Weather Service",
+   "note": "Free planning worksheets for outdoor events.",
+   "url": "https://www.weather.gov/media/dvn/NWSDVN_eventplanning_guide.pdf",
+   "topics": [
+    "event"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI E1.6-1-2021 Powered Hoist Systems",
+   "by": "ESTA TSP",
+   "note": "Free ESTA standard for powered hoists.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20E1.6-1%20-%202021.pdf",
+   "topics": [
+    "rig",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI E1.4-1-2022 Manual Counterweight Rigging Systems",
+   "by": "ESTA TSP",
+   "note": "Free ESTA standard for fly systems.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20E1.4-1-2022.pdf",
+   "topics": [
+    "theatre",
+    "rig",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI E1.21-2024 Temporary Outdoor Structures",
+   "by": "ESTA TSP",
+   "note": "Free ESTA standard for roofs/towers outdoors.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20E1.21%20-%202024.pdf",
+   "topics": [
+    "staging",
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI E1.2-2021 Aluminum Trusses and Towers",
+   "by": "ESTA TSP",
+   "note": "Free ESTA truss standard.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20E1.2%20-%202021.pdf",
+   "topics": [
+    "rig",
+    "staging"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI E1.47-2020 Rigging System Inspections",
+   "by": "ESTA TSP",
+   "note": "Free guidelines for rigging inspections.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20E1.47-2020.pdf",
+   "topics": [
+    "rig",
+    "theatre",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI E1.11-2024 DMX512-A",
+   "by": "ESTA TSP",
+   "note": "Free DMX control standard.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20E1.11%20-%202024.pdf",
+   "topics": [
+    "lx",
+    "video"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI ES1.4-2021 Event Fire Safety",
+   "by": "ESTA TSP",
+   "note": "Free event fire-safety standard.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20ES1.4-2021.pdf",
+   "topics": [
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "ANSI ES1.9-2020 Crowd Management (superseded edition)",
+   "by": "ESTA TSP",
+   "note": "Marked superseded; check TSP for current.",
+   "url": "https://tsp.esta.org/tsp/documents/docs/ANSI%20ES1.9-2020.pdf",
+   "topics": [
+    "event"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "Genie manuals library",
+   "by": "Genie (Terex)",
+   "note": "Official operator/service manuals.",
+   "url": "https://www.genielift.com/en/support/manuals",
+   "topics": [
+    "lifts"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "IPAF Resource Library",
+   "by": "IPAF",
+   "note": "Powered-access safety guidance.",
+   "url": "https://www.ipaf.org/en-us/resource-library",
+   "topics": [
+    "lifts",
+    "fall",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "NWS Lightning Safety resources",
+   "by": "National Weather Service",
+   "note": "Lightning toolkits for outdoor events.",
+   "url": "https://www.weather.gov/safety/lightning",
+   "topics": [
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "PDF / Standard",
+   "t": "NFPA 70 (NEC): free read-only access",
+   "by": "NFPA",
+   "note": "Official NEC (NFPA 70) page.",
+   "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70",
+   "topics": [
+    "power",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "ETCP Certification",
+   "by": "Online / test centers",
+   "note": "Arena & theatre rigger, entertainment electrician certs",
+   "url": "https://etcp.esta.org/",
+   "topics": [
+    "schools",
+    "rig",
+    "power"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "ESA Event Safety Access Training (ESAT)",
+   "by": "Online",
+   "note": "Entry-level event safety credential (paid)",
+   "url": "https://eventsafetyalliance.org/online-learning/event-safety-access-training",
+   "topics": [
+    "schools",
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "IATSE Training Trust Fund",
+   "by": "Online",
+   "note": "Free courses for eligible IATSE workers; ETCP renewal credits",
+   "url": "https://www.iatsetrainingtrust.org/courses-resources",
+   "topics": [
+    "schools",
+    "unions",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Full Sail University",
+   "by": "Winter Park, FL",
+   "note": "Show Production (B.S.)",
+   "url": "https://www.fullsail.edu/degrees/show-production-bachelor",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Berklee College of Music",
+   "by": "Boston, MA",
+   "note": "Music production & engineering programs",
+   "url": "https://college.berklee.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "UNCSA School of Design & Production",
+   "by": "Winston-Salem, NC",
+   "note": "Design & production BFA/MFA",
+   "url": "https://www.uncsa.edu/design-production/index.aspx",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "CalArts School of Theater",
+   "by": "Valencia, CA",
+   "note": "Theater incl. technical direction & design",
+   "url": "https://theater.calarts.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Wayne State University: Theatre & Dance",
+   "by": "Detroit, MI",
+   "note": "Theatre incl. design/tech",
+   "url": "https://theatreanddance.wayne.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Oakland University: School of Music, Theatre & Dance",
+   "by": "Rochester, MI",
+   "note": "Theatre & production",
+   "url": "https://oakland.edu/smtd/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Henry Ford College",
+   "by": "Dearborn, MI",
+   "note": "Community college; check catalog for theatre/tech",
+   "url": "https://www.hfcc.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Macomb Community College",
+   "by": "Warren, MI",
+   "note": "Community college; check catalog for theatre/media",
+   "url": "https://www.macomb.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "U-M School of Music, Theatre & Dance",
+   "by": "Ann Arbor, MI",
+   "note": "Theatre design & production",
+   "url": "https://smtd.umich.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Washtenaw Community College",
+   "by": "Ann Arbor, MI",
+   "note": "Community college; check catalog for audio/media",
+   "url": "https://www.wccnet.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Michigan State University: Theatre",
+   "by": "East Lansing, MI",
+   "note": "Theatre incl. design/tech",
+   "url": "https://theatre.msu.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Lansing Community College",
+   "by": "Lansing, MI",
+   "note": "Community college; check catalog for performing arts/tech",
+   "url": "https://www.lcc.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Grand Valley State University: Theatre",
+   "by": "Allendale, MI",
+   "note": "Theatre",
+   "url": "https://www.gvsu.edu/theatre/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Grand Rapids Community College",
+   "by": "Grand Rapids, MI",
+   "note": "Community college; check catalog",
+   "url": "https://www.grcc.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Mott Community College",
+   "by": "Flint, MI",
+   "note": "Community college; check catalog",
+   "url": "https://www.mcc.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Flint"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Saginaw Valley State University: Theatre",
+   "by": "University Center, MI",
+   "note": "Theatre",
+   "url": "https://www.svsu.edu/theatre/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Delta College",
+   "by": "University Center, MI",
+   "note": "Community college; check catalog",
+   "url": "https://www.delta.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Central Michigan University",
+   "by": "Mount Pleasant, MI",
+   "note": "Theatre & dance programs (statewide)",
+   "url": "https://www.cmich.edu/",
+   "topics": [
+    "schools"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "ETC Training",
+   "by": "ETC",
+   "note": "Console & fixture training (online and in person).",
+   "url": "https://www.etcconnect.com/Training/",
+   "topics": [
+    "lx",
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "d&b audiotechnik Education",
+   "by": "d&b audiotechnik",
+   "note": "Seminars on system design & rigging.",
+   "url": "https://www.dbaudio.com/global/en/education/",
+   "topics": [
+    "audio",
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "L-Acoustics Education",
+   "by": "L-Acoustics",
+   "note": "System design, rigging & tuning courses.",
+   "url": "https://www.l-acoustics.com/education/",
+   "topics": [
+    "audio",
+    "schools",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "Meyer Sound Education",
+   "by": "Meyer Sound",
+   "note": "SIM and system optimization training.",
+   "url": "https://meyersound.com/education/",
+   "topics": [
+    "audio",
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "FEMA IS-15.b Special Events Contingency Planning",
+   "by": "FEMA EMI",
+   "note": "Free online course for event planners.",
+   "url": "https://training.fema.gov/is/courseoverview.aspx?code=IS-15.b",
+   "topics": [
+    "event",
+    "safety",
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "IPAF operator training",
+   "by": "IPAF",
+   "note": "Aerial work platform (MEWP) operator courses.",
+   "url": "https://www.ipaf.org/en-us",
+   "topics": [
+    "lifts",
+    "schools",
+    "fall"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Course",
+   "t": "ITI crane & rigging training",
+   "by": "ITI",
+   "note": "Rigging & crane courses; ITI publishes Entertainment Rigging.",
+   "url": "https://www.iti.com/",
+   "topics": [
+    "rig",
+    "schools",
+    "lifts"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "USITT",
+   "by": "",
+   "note": "US Institute for Theatre Technology.",
+   "url": "https://www.usitt.org/",
+   "topics": [
+    "theatre",
+    "careers",
+    "schools"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "ESTA",
+   "by": "",
+   "note": "Entertainment Services & Technology Association; runs ETCP & TSP.",
+   "url": "https://www.esta.org/",
+   "topics": [
+    "safety",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "PLASA",
+   "by": "",
+   "note": "Entertainment technology trade body.",
+   "url": "https://www.plasa.org/",
+   "topics": [
+    "safety",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Event Safety Alliance",
+   "by": "",
+   "note": "US live-event safety organization.",
+   "url": "https://eventsafetyalliance.org/",
+   "topics": [
+    "event",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Global Crowd Management Alliance",
+   "by": "",
+   "note": "Crowd-safety resources & training.",
+   "url": "https://thegcma.com/",
+   "topics": [
+    "event"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "OSHA",
+   "by": "",
+   "note": "US workplace safety rules & publications.",
+   "url": "https://www.osha.gov/",
+   "topics": [
+    "safety",
+    "fall",
+    "lifts"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Scaffold & Access Industry Association",
+   "by": "",
+   "note": "Scaffold & access safety body.",
+   "url": "https://www.saiaonline.org/",
+   "topics": [
+    "staging",
+    "lifts",
+    "fall",
+    "safety"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "NFPA",
+   "by": "",
+   "note": "Fire & electrical codes (NFPA 70, 101).",
+   "url": "https://www.nfpa.org/",
+   "topics": [
+    "safety",
+    "power",
+    "event"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Stage Managers' Association",
+   "by": "",
+   "note": "Professional SM organization.",
+   "url": "https://www.stagemanagers.org/",
+   "topics": [
+    "sm"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Actors' Equity Association",
+   "by": "",
+   "note": "Union representing actors & stage managers.",
+   "url": "https://www.actorsequity.org/",
+   "topics": [
+    "sm",
+    "unions"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "IATSE Local 764 (Theatrical Wardrobe Union)",
+   "by": "",
+   "note": "NYC wardrobe local; wardrobe career info.",
+   "url": "https://www.ia764.org/",
+   "topics": [
+    "wardrobe",
+    "unions"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Petzl Professional",
+   "by": "",
+   "note": "Fall-protection gear, technical notices.",
+   "url": "https://www.petzl.com/US/en/Professional",
+   "topics": [
+    "fall",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Shure Insights",
+   "by": "",
+   "note": "Free audio articles & guides.",
+   "url": "https://www.shure.com/en-US/insights/",
+   "topics": [
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "CHAUVET Professional",
+   "by": "",
+   "note": "Lighting & LED video manufacturer.",
+   "url": "https://www.chauvetprofessional.com/",
+   "topics": [
+    "lx",
+    "video"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Genie",
+   "by": "",
+   "note": "Aerial lifts manufacturer.",
+   "url": "https://www.genielift.com/en/",
+   "topics": [
+    "lifts"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "JLG",
+   "by": "",
+   "note": "Aerial lifts & telehandlers manufacturer.",
+   "url": "https://www.jlg.com/en",
+   "topics": [
+    "lifts"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Rose Brand",
+   "by": "",
+   "note": "Stage drapery, fabrics & supplies.",
+   "url": "https://www.rosebrand.com/",
+   "topics": [
+    "theatre",
+    "carps",
+    "wardrobe"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Motion Labs",
+   "by": "",
+   "note": "Power distribution & motor control.",
+   "url": "https://www.motionlabs.com/",
+   "topics": [
+    "power",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "J.R. Clancy",
+   "by": "",
+   "note": "Theatre rigging systems manufacturer.",
+   "url": "https://www.jrclancy.com/",
+   "topics": [
+    "theatre",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Thern",
+   "by": "",
+   "note": "Winches & hoists manufacturer.",
+   "url": "https://www.thern.com/",
+   "topics": [
+    "rig",
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Global Truss America",
+   "by": "",
+   "note": "Truss & ground-support manufacturer.",
+   "url": "https://www.globaltruss.com/",
+   "topics": [
+    "staging",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Prolyte",
+   "by": "",
+   "note": "Truss & staging manufacturer.",
+   "url": "https://www.prolyte.com/",
+   "topics": [
+    "staging",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "StageRight",
+   "by": "",
+   "note": "Portable staging & seating.",
+   "url": "https://www.stageright.com/",
+   "topics": [
+    "staging"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Wenger Corporation",
+   "by": "",
+   "note": "Staging, risers & performance equipment.",
+   "url": "https://www.wengercorp.com/",
+   "topics": [
+    "staging",
+    "theatre"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Steeldeck",
+   "by": "",
+   "note": "Stages, platforms & risers.",
+   "url": "https://www.steeldeck.com/",
+   "topics": [
+    "staging",
+    "carps"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "IATSE (International)",
+   "by": "",
+   "note": "Find any local via the directory.",
+   "url": "https://iatse.net/",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": "",
+   "email": "",
+   "jobs": "https://iatse.net/local-union-directory/"
+  },
+  {
+   "type": "Organization",
+   "t": "Teamsters (International)",
+   "by": "",
+   "note": "Some trucking/convention work; check local jurisdiction.",
+   "url": "https://teamster.org/",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": "",
+   "email": "",
+   "jobs": ""
+  },
+  {
+   "type": "Organization",
+   "t": "IATSE Local 38 (Detroit)",
+   "by": "",
+   "note": "Referral hall for Detroit theatres, arenas, convention halls; resumes: resumes@iatse38.org.",
+   "url": "https://www.iatse38.org/",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "phone": "313-870-9570",
+   "email": "info@iatse38.org",
+   "jobs": "https://www.iatse38.org/?page=How20To20Join&zone=%2Funionactive%2Fview_page.cfm"
+  },
+  {
+   "type": "Organization",
+   "t": "IATSE Local 395 (Ann Arbor)",
+   "by": "",
+   "note": "UMS, Michigan Theater, U-M events.",
+   "url": "https://iatse395.org/",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "phone": "734-845-0550",
+   "email": "local395@iatse395.org",
+   "jobs": "https://iatse395.org/contact/"
+  },
+  {
+   "type": "Organization",
+   "t": "IATSE Local 274 (Lansing / Central & Northern MI)",
+   "by": "",
+   "note": "Referral list open; no experience necessary per site.",
+   "url": "https://www.iatse274.org/",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "phone": "517-374-5570",
+   "email": "info@iatse274.org",
+   "jobs": "https://www.iatse274.org/employment.html"
+  },
+  {
+   "type": "Organization",
+   "t": "IATSE Local 26 (Grand Rapids / West MI)",
+   "by": "",
+   "note": "Apply in person at office for referral list.",
+   "url": "https://www.iatse26.org/",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "phone": "616-742-5526",
+   "email": "mail@iatse26.org",
+   "jobs": "https://www.iatse26.org/contact/"
+  },
+  {
+   "type": "Organization",
+   "t": "IATSE Local 201 (Flint)",
+   "by": "",
+   "note": "Exists per IATSE sources; no official site/phone verified, use the IATSE directory.",
+   "url": "https://iatse.net/local-union-directory/",
+   "topics": [
+    "unions",
+    "careers"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Flint"
+   },
+   "phone": "",
+   "email": "",
+   "jobs": "https://iatse.net/local-union-directory/"
+  },
+  {
+   "type": "Organization",
+   "t": "On Site Specialists (OSS)",
+   "by": "",
+   "note": "AV technical crew & labor",
+   "url": "https://ossdetroit.com/",
+   "topics": [
+    "companies",
+    "load",
+    "careers"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "phone": "248-585-4677"
+  },
+  {
+   "type": "Organization",
+   "t": "Prime AV: Detroit",
+   "by": "",
+   "note": "Event production & AV",
+   "url": "https://goprimeav.com/detroit/",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "phone": "313-998-3254"
+  },
+  {
+   "type": "Organization",
+   "t": "4Wall: Detroit",
+   "by": "",
+   "note": "Production services & rental",
+   "url": "https://www.4wall.com/production/detroit-mi",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Aerial Enterprises",
+   "by": "",
+   "note": "Sound rental (Ann Arbor area since 1976, per IATSE 395)",
+   "url": "https://www.aerialenterprises.com/",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Chase Creative",
+   "by": "",
+   "note": "Staging, sound, lighting, video",
+   "url": "https://chasecreative.com/",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "phone": "616-785-8660"
+  },
+  {
+   "type": "Organization",
+   "t": "OAV",
+   "by": "",
+   "note": "AV services & event production",
+   "url": "https://www.oavpro.com/",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "phone": "616-259-9193"
+  },
+  {
+   "type": "Organization",
+   "t": "Michigan Digital",
+   "by": "",
+   "note": "Live event AV & streaming",
+   "url": "https://www.michigandigital.com/",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "phone": "877-669-1290"
+  },
+  {
+   "type": "Organization",
+   "t": "Level 47 Productions",
+   "by": "",
+   "note": "Sound & staging (listing page)",
+   "url": "https://www.gigheaven.com/members/level47.html",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "PRG",
+   "by": "",
+   "note": "Lighting, video, audio, rigging",
+   "url": "https://www.prg.com/",
+   "topics": [
+    "companies",
+    "lx",
+    "video",
+    "audio",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Solotech",
+   "by": "",
+   "note": "Audio, video, lighting",
+   "url": "https://solotech.com/",
+   "topics": [
+    "companies",
+    "audio",
+    "video",
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Clair Global",
+   "by": "",
+   "note": "Live audio & AV systems",
+   "url": "https://clairglobal.com/",
+   "topics": [
+    "companies",
+    "audio"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "4Wall",
+   "by": "",
+   "note": "Lighting/audio/video/rigging rental",
+   "url": "https://www.4wall.com/",
+   "topics": [
+    "companies",
+    "lx",
+    "video",
+    "rig"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Upstaging",
+   "by": "",
+   "note": "Lighting, video, trucking",
+   "url": "https://www.upstaging.com/",
+   "topics": [
+    "companies",
+    "lx",
+    "video",
+    "load"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Gallagher Staging",
+   "by": "",
+   "note": "Staging & scenic manufacturing",
+   "url": "https://gallagherstaging.com/",
+   "topics": [
+    "companies",
+    "staging",
+    "carps"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": "714-690-1559"
+  },
+  {
+   "type": "Organization",
+   "t": "Stageco",
+   "by": "",
+   "note": "Large-scale touring stages",
+   "url": "https://www.stageco.com/",
+   "topics": [
+    "companies",
+    "staging"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Rhino Staging",
+   "by": "",
+   "note": "Professional crews for live events",
+   "url": "https://www.rhinostaging.com/",
+   "topics": [
+    "companies",
+    "load",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": "888-468-7446"
+  },
+  {
+   "type": "Organization",
+   "t": "Crew One",
+   "by": "",
+   "note": "Stagehand labor",
+   "url": "https://www.crewone.com/",
+   "topics": [
+    "companies",
+    "load",
+    "careers"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Tribe Productions",
+   "by": "",
+   "note": "Production services",
+   "url": "https://www.tribeproductions.com/",
+   "topics": [
+    "companies"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Clearwing",
+   "by": "",
+   "note": "Live events & systems integration",
+   "url": "https://www.clearwing.com/",
+   "topics": [
+    "companies",
+    "audio",
+    "lx"
+   ],
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "phone": ""
+  },
+  {
+   "type": "Organization",
+   "t": "Fox Theatre",
+   "by": "",
+   "note": "House labor: IATSE Local 38 (source: Local 38 theatres page)",
+   "url": "https://www.313presents.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Fisher Theatre",
+   "by": "",
+   "note": "House labor: IATSE Local 38 (source: Local 38 theatres page)",
+   "url": "https://www.broadwayindetroit.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Detroit Opera House",
+   "by": "",
+   "note": "House labor: IATSE Local 38 (source: Local 38 theatres page)",
+   "url": "https://www.detroitopera.org/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Little Caesars Arena",
+   "by": "",
+   "note": "House labor: IATSE Local 38 (reported) (source: WXYZ news report)",
+   "url": "https://www.313presents.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Huntington Place",
+   "by": "",
+   "note": "House labor: Huntington Place Mgmt (exclusive), IATSE Local 38 labor (source: Show labor sheet)",
+   "url": "https://www.huntingtonplacedetroit.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Hill Auditorium / UMS venues",
+   "by": "",
+   "note": "House labor: IATSE Local 395 (source: Local 395 client list)",
+   "url": "https://ums.org/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Michigan Theater",
+   "by": "",
+   "note": "House labor: IATSE Local 395 (source: Local 395 client list)",
+   "url": "https://www.michtheater.org/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Wharton Center",
+   "by": "",
+   "note": "House labor: IATSE Local 274 (source: Local 274 venues page)",
+   "url": "https://www.whartoncenter.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Breslin Center",
+   "by": "",
+   "note": "House labor: IATSE Local 274 (source: Local 274 venues page)",
+   "url": "https://www.breslincenter.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Lansing Center",
+   "by": "",
+   "note": "House labor: IATSE Local 274 (source: Local 274 venues page)",
+   "url": "https://www.lansingcenter.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Van Andel Arena",
+   "by": "",
+   "note": "House labor: IATSE Local 26 (source: Local 26 venue page)",
+   "url": "https://www.vanandelarena.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "DeVos Place / DeVos Performance Hall",
+   "by": "",
+   "note": "House labor: IATSE Local 26 (source: Local 26 venue page)",
+   "url": "https://www.devosplace.org/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "The Whiting",
+   "by": "",
+   "note": "House labor: Not verified",
+   "url": "https://thewhiting.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Flint"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Temple Theatre",
+   "by": "",
+   "note": "House labor: Not verified",
+   "url": "https://templetheatre.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  },
+  {
+   "type": "Organization",
+   "t": "Dow Event Center",
+   "by": "",
+   "note": "House labor: Not verified",
+   "url": "https://www.doweventcenter.com/",
+   "topics": [
+    "venues"
+   ],
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  }
+ ],
+ "unions": [
+  {
+   "name": "IATSE (International)",
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "url": "https://iatse.net/",
+   "jobs": "https://iatse.net/local-union-directory/",
+   "phone": "",
+   "email": "",
+   "note": "Find any local via the directory."
+  },
+  {
+   "name": "Teamsters (International)",
+   "loc": {
+    "state": "US",
+    "metro": "All"
+   },
+   "url": "https://teamster.org/",
+   "jobs": "",
+   "phone": "",
+   "email": "",
+   "note": "Some trucking/convention work; check local jurisdiction."
+  },
+  {
+   "name": "IATSE Local 38 (Detroit)",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.iatse38.org/",
+   "jobs": "https://www.iatse38.org/?page=How20To20Join&zone=%2Funionactive%2Fview_page.cfm",
+   "phone": "313-870-9570",
+   "email": "info@iatse38.org",
+   "note": "Referral hall for Detroit theatres, arenas, convention halls; resumes: resumes@iatse38.org."
+  },
+  {
+   "name": "IATSE Local 395 (Ann Arbor)",
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "url": "https://iatse395.org/",
+   "jobs": "https://iatse395.org/contact/",
+   "phone": "734-845-0550",
+   "email": "local395@iatse395.org",
+   "note": "UMS, Michigan Theater, U-M events."
+  },
+  {
+   "name": "IATSE Local 274 (Lansing / Central & Northern MI)",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.iatse274.org/",
+   "jobs": "https://www.iatse274.org/employment.html",
+   "phone": "517-374-5570",
+   "email": "info@iatse274.org",
+   "note": "Referral list open; no experience necessary per site."
+  },
+  {
+   "name": "IATSE Local 26 (Grand Rapids / West MI)",
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "url": "https://www.iatse26.org/",
+   "jobs": "https://www.iatse26.org/contact/",
+   "phone": "616-742-5526",
+   "email": "mail@iatse26.org",
+   "note": "Apply in person at office for referral list."
+  },
+  {
+   "name": "IATSE Local 201 (Flint)",
+   "loc": {
+    "state": "MI",
+    "metro": "Flint"
+   },
+   "url": "https://iatse.net/local-union-directory/",
+   "jobs": "https://iatse.net/local-union-directory/",
+   "phone": "",
+   "email": "",
+   "note": "Exists per IATSE sources; no official site/phone verified, use the IATSE directory."
+  }
+ ],
+ "companies": [
+  [
+   "On Site Specialists (OSS)",
+   "AV technical crew & labor",
+   "https://ossdetroit.com/",
+   "248-585-4677",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "Prime AV: Detroit",
+   "Event production & AV",
+   "https://goprimeav.com/detroit/",
+   "313-998-3254",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "4Wall: Detroit",
+   "Production services & rental",
+   "https://www.4wall.com/production/detroit-mi",
+   "",
+   {
+    "state": "MI",
+    "metro": "Detroit"
+   }
+  ],
+  [
+   "Aerial Enterprises",
+   "Sound rental (Ann Arbor area since 1976, per IATSE 395)",
+   "https://www.aerialenterprises.com/",
+   "",
+   {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   }
+  ],
+  [
+   "Chase Creative",
+   "Staging, sound, lighting, video",
+   "https://chasecreative.com/",
+   "616-785-8660",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "OAV",
+   "AV services & event production",
+   "https://www.oavpro.com/",
+   "616-259-9193",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "Michigan Digital",
+   "Live event AV & streaming",
+   "https://www.michigandigital.com/",
+   "877-669-1290",
+   {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   }
+  ],
+  [
+   "Level 47 Productions",
+   "Sound & staging (listing page)",
+   "https://www.gigheaven.com/members/level47.html",
+   "",
+   {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   }
+  ],
+  [
+   "PRG",
+   "Lighting, video, audio, rigging",
+   "https://www.prg.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Solotech",
+   "Audio, video, lighting",
+   "https://solotech.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Clair Global",
+   "Live audio & AV systems",
+   "https://clairglobal.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "4Wall",
+   "Lighting/audio/video/rigging rental",
+   "https://www.4wall.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Upstaging",
+   "Lighting, video, trucking",
+   "https://www.upstaging.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Gallagher Staging",
+   "Staging & scenic manufacturing",
+   "https://gallagherstaging.com/",
+   "714-690-1559",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Stageco",
+   "Large-scale touring stages",
+   "https://www.stageco.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Rhino Staging",
+   "Professional crews for live events",
+   "https://www.rhinostaging.com/",
+   "888-468-7446",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Crew One",
+   "Stagehand labor",
+   "https://www.crewone.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Tribe Productions",
+   "Production services",
+   "https://www.tribeproductions.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ],
+  [
+   "Clearwing",
+   "Live events & systems integration",
+   "https://www.clearwing.com/",
+   "",
+   {
+    "state": "US",
+    "metro": "All"
+   }
+  ]
+ ],
+ "venues": [
+  {
+   "name": "Fox Theatre",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.313presents.com/",
+   "labor": "IATSE Local 38",
+   "src": "Local 38 theatres page"
+  },
+  {
+   "name": "Fisher Theatre",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.broadwayindetroit.com/",
+   "labor": "IATSE Local 38",
+   "src": "Local 38 theatres page"
+  },
+  {
+   "name": "Detroit Opera House",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.detroitopera.org/",
+   "labor": "IATSE Local 38",
+   "src": "Local 38 theatres page"
+  },
+  {
+   "name": "Little Caesars Arena",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.313presents.com/",
+   "labor": "IATSE Local 38 (reported)",
+   "src": "WXYZ news report"
+  },
+  {
+   "name": "Huntington Place",
+   "loc": {
+    "state": "MI",
+    "metro": "Detroit"
+   },
+   "url": "https://www.huntingtonplacedetroit.com/",
+   "labor": "Huntington Place Mgmt (exclusive), IATSE Local 38 labor",
+   "src": "Show labor sheet"
+  },
+  {
+   "name": "Hill Auditorium / UMS venues",
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "url": "https://ums.org/",
+   "labor": "IATSE Local 395",
+   "src": "Local 395 client list"
+  },
+  {
+   "name": "Michigan Theater",
+   "loc": {
+    "state": "MI",
+    "metro": "Ann Arbor"
+   },
+   "url": "https://www.michtheater.org/",
+   "labor": "IATSE Local 395",
+   "src": "Local 395 client list"
+  },
+  {
+   "name": "Wharton Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.whartoncenter.com/",
+   "labor": "IATSE Local 274",
+   "src": "Local 274 venues page"
+  },
+  {
+   "name": "Breslin Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.breslincenter.com/",
+   "labor": "IATSE Local 274",
+   "src": "Local 274 venues page"
+  },
+  {
+   "name": "Lansing Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Lansing"
+   },
+   "url": "https://www.lansingcenter.com/",
+   "labor": "IATSE Local 274",
+   "src": "Local 274 venues page"
+  },
+  {
+   "name": "Van Andel Arena",
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "url": "https://www.vanandelarena.com/",
+   "labor": "IATSE Local 26",
+   "src": "Local 26 venue page"
+  },
+  {
+   "name": "DeVos Place / DeVos Performance Hall",
+   "loc": {
+    "state": "MI",
+    "metro": "Grand Rapids"
+   },
+   "url": "https://www.devosplace.org/",
+   "labor": "IATSE Local 26",
+   "src": "Local 26 venue page"
+  },
+  {
+   "name": "The Whiting",
+   "loc": {
+    "state": "MI",
+    "metro": "Flint"
+   },
+   "url": "https://thewhiting.com/",
+   "labor": "Not verified",
+   "src": ""
+  },
+  {
+   "name": "Temple Theatre",
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   },
+   "url": "https://templetheatre.com/",
+   "labor": "Not verified",
+   "src": ""
+  },
+  {
+   "name": "Dow Event Center",
+   "loc": {
+    "state": "MI",
+    "metro": "Saginaw/Bay City"
+   },
+   "url": "https://www.doweventcenter.com/",
+   "labor": "Not verified",
+   "src": ""
+  }
+ ],
+ "omitted": [
+  "IATSE Local 786 (exists per IRS/org listings; craft & official site not verified)",
+  "IATSE Local 199 Detroit (not verified)",
+  "Saginaw/Bay City IATSE local (jurisdiction not verified)",
+  "'Stage Management' (Raymond / Stern): purchase link not verified",
+  "OSHA PDF fact sheets (osha.gov blocks automated checks; linked topic pages instead)",
+  "Yamaha handbook: not free (paid book only)",
+  "Sennheiser guides (not verified)",
+  "Premier Creative Group, Fantasee Integration, North Coast Studios, Amazing Audio: site or location not verified",
+  "Company phones left blank where not on official site",
+  "Tactical entities excluded by policy",
+  "CM (cmco.com) and ANSI webstore: bot-blocked, so CM manuals are linked via cmhoist.com instead",
+  "UL, Tomcat, Vertigo-us, SMNetwork, Socapex, AWPT sites: not reachable/verified",
+  "Truss/deck/distro YouTube results: mostly vendor promo or unknown channels, skipped",
+  "ESTA ES1.18 rigging and E1.19: free PDF URL not found",
+  "Sennheiser guides: not verified"
+ ]
+}

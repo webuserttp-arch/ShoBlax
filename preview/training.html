@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ShoBlax Event Production Library (MOCKUP)</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="members.css"><style>
+.chips a{flex:none;border:1px solid var(--line);padding:8px 12px;border-radius:99px;font-size:13px;color:var(--txt);text-decoration:none}
+.lnk{color:inherit;text-decoration:none}.lnk img.th{width:120px;height:68px;object-fit:cover;filter:grayscale(.6) brightness(.8)}
+.vid em{display:block;font-style:normal;font-size:12px;color:#777;margin-top:2px}h2 small{color:#555;font-weight:400}
+.res{list-style:none;font-size:14px}.res li{padding:8px 0;border-bottom:1px solid var(--line)}.res a{color:var(--hi);text-decoration:none}
+section{scroll-margin-top:8px}.tabs{position:sticky;top:0;z-index:5;background:rgba(10,10,10,.97);border-bottom:1px solid var(--line)}
+.loc{display:flex;gap:8px;padding:10px 16px 0}.loc select{flex:1;min-height:44px;background:#121212;color:var(--hi);border:1px solid #333;border-radius:10px;padding:0 10px;font-size:15px}
+.item{display:block;padding:12px;border-bottom:1px solid var(--line);color:inherit;text-decoration:none}.item:last-child{border:0}
+.item b{color:var(--hi);font-size:14px;display:block}.item small{display:block;font-size:12px}.item em{display:block;font-style:normal;font-size:12px;color:#777}
+.pill{display:inline-block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;border:1px solid #333;border-radius:4px;padding:1px 5px;margin-left:6px;color:#777;vertical-align:middle}
+.item a{color:var(--hi)}.q{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.q a{border:1px solid #3a3a3a;border-radius:99px;padding:8px 12px;font-size:13px;color:var(--hi);text-decoration:none}
+.warn{font-size:12px;color:#888;border-left:2px solid #444;padding-left:8px;margin:8px 0}.bar .btn{font-size:14px}
+details.tp{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0 16px 8px}
+details.tp>summary{min-height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;color:var(--hi);font-weight:700;font-size:15px;cursor:pointer;list-style:none}
+details.tp>summary::-webkit-details-marker{display:none}details.tp>summary:after{content:'+';font-size:22px;color:#777;margin-left:10px}details.tp[open]>summary:after{content:'–'}
+details.tp>summary span{margin-left:auto;color:#666;font-weight:400;font-size:13px}.sub{padding:8px 12px 4px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#777;border-top:1px solid var(--line)}
+.vrow{display:flex;gap:10px;align-items:center}.vrow img{flex:none;width:96px;height:54px;object-fit:cover;border-radius:6px;filter:grayscale(.6) brightness(.8)}
+.bsb{min-height:56px;margin-top:10px;font-size:14px}.item small.sec{margin-top:6px}.bsl{padding:8px 12px;font-size:12px;color:#9a9a9a;border-top:1px solid var(--line)}.bsl span{display:block;color:#666;font-size:11px;margin-top:2px}
+.tools{display:flex;gap:8px;padding:8px 16px 10px}.tools input{margin:0;min-height:44px;flex:1}.tools .btn{min-height:44px;flex:none;width:auto;padding:0 14px;font-size:13px}
+</style></head><body>
+<header><a href="index.html"><img src="logo.svg" alt="ShoBlax"></a><nav><a href="index.html">Home</a></nav></header>
+<div class="hero"><span class="tag">Free · Last verified 10/11/2026</span><h1>ShoBlax Event Production Library</h1><p>Videos, books, free standards, courses and more for every department, sorted by topic. Not a substitute for hands-on training by a qualified person.</p></div>
+<div class="tabs"><div class="loc"><select id="st" aria-label="State"></select><select id="mt" aria-label="Metro / city"></select></div>
+<div class="tools"><input id="qq" type="search" placeholder="Search library…" aria-label="Search"><button class="btn" type="button" id="tog">Open all</button></div></div>
+<div id="lib" style="padding-top:12px"></div><p class="note" id="cnt"></p>
+<section><h2>Suggest a resource</h2><div class="box">Know a great video, book, school or course? <a class="btn" style="margin-top:12px" href="mailto:resources@example.com?subject=ShoBlax%20Production%20Library%20suggestion">Suggest a resource (placeholder)</a></div></section>
+<p class="note">MOCKUP. More coming soon. Data in resources.json, verified Oct 11, 2026; contacts only as listed on official sites. Location saved on this device only. Members sign-up data is described in our <a href="privacy.html" style="color:#777">Privacy policy</a>.</p>
+<div class="bar" id="bar"></div>
+<script src="resources.js"></script><script src="hide.js"></script><script src="members-config.js"></script><script src="members.js"></script><script>
+(async()=>{let R=window.RES;try{const r=await fetch('resources.json');if(r.ok)R=await r.json()}catch(e){}
+R=SBX_HIDE(R);
+const $=id=>document.getElementById(id),st=$('st'),mt=$('mt'),E=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let L=JSON.parse(localStorage.getItem('sbx_loc')||'{"state":"All","metro":"All"}');
+st.innerHTML='<option value="All">All states</option>'+Object.entries(R.locations).map(([k,v])=>`<option value="${k}">${v.name}</option>`).join('');
+function metros(){const m=L.state!=='All'&&R.locations[L.state]?Object.keys(R.locations[L.state].metros):[];mt.innerHTML='<option value="All">All metros</option>'+m.map(x=>`<option>${x}</option>`).join('');mt.disabled=!m.length;mt.value=m.includes(L.metro)?L.metro:'All'}
+const ok=l=>l.state==='US'||L.state==='All'||(l.state===L.state&&(L.metro==='All'||l.metro==='All'||l.metro===L.metro));
+const tag=l=>l.state==='US'?'National':(l.metro==='All'?l.state:l.metro+', '+l.state);
+const TY=[['Video','Videos'],['Book','Books'],['PDF / Standard','PDFs & standards'],['Course','Courses'],['Organization','Organizations']];
+const lnk=(u,t)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`;
+function card(x){const loc=(x.loc.state==='US'&&!x.topics.some(t=>['unions','companies','venues','schools'].includes(t)))?'':`<span class="pill">${tag(x.loc)}</span>`;
+ if(x.type==='Video')return `<a class="item" href="${x.url}" target="_blank" rel="noopener"><div class="vrow"><img loading="lazy" src="https://i.ytimg.com/vi/${x.vid}/mqdefault.jpg" alt=""><div><b>${E(x.t)}</b><small>${E(x.by)}</small><em>${E(x.note)}</em></div></div></a>`;
+ const ex=(x.jobs&&x.jobs!==x.url?' · '+lnk(x.jobs,'Referral / apply ↗'):'')+(x.phone?` · <a href="tel:${x.phone}">${x.phone}</a>`:'')+(x.email?` · <a href="mailto:${x.email}">${x.email}</a>`:'');
+ if(x.type==='Book'&&x.isbn){const bu=bookshopUrl(x);return `<div class="item"><b>${E(x.t)}${loc}</b><small>${x.by?E(x.by):''}</small><em>${E(x.note)}</em><a class="btn bsb" href="${bu}" target="_blank" rel="noopener sponsored">📚 Buy on Bookshop.org${x.bookshop?'':' (search)'}</a><small class="sec">${lnk(x.url,'Other seller ↗')}</small></div>`}
+ return `<div class="item"><b>${E(x.t)}${loc}</b><small>${x.by?E(x.by)+' · ':''}${lnk(x.url,'Open ↗')}${ex}</small><em>${E(x.note)}</em></div>`}
+const FREE=3;
+/* Soft gating: locked rows show only title shape, no link. resources.json is public, so this is a members perk, not security. */
+function lockCard(x){return `<div class="lock" data-locked="1"><div class="blur" aria-hidden="true"><b style="color:var(--hi);font-size:14px;display:block">${E(x.t).replace(/[^ ]/g,'▇').slice(0,40)}</b><small>${E(x.type)}</small></div><span class="lk">🔒 Members</span></div>`}
+let openSet=new Set(JSON.parse(sessionStorage.getItem('sbx_open')||'[]'));
+const P=new URLSearchParams(location.search);if(P.get('open'))P.get('open').split(',').forEach(k=>openSet.add(k));
+function render(){const q=$('qq').value.trim().toLowerCase();let tot=new Set();
+ const items=R.items.filter(x=>ok(x.loc)&&(!q||(x.t+' '+x.by+' '+x.note).toLowerCase().includes(q)));
+ $('lib').innerHTML=R.topics.map(([k,name])=>{const its=items.filter(x=>x.topics.includes(k));if(!its.length)return '';its.forEach(x=>tot.add(x.url+x.t));
+  const mem=SBX.isMember(),ord=TY.flatMap(([ty])=>its.filter(x=>x.type===ty)),free=new Set(mem?ord:ord.slice(0,FREE));
+  const g=TY.map(([ty,lab])=>{const a=its.filter(x=>x.type===ty);return a.length?`<div class="sub">${lab} (${a.length})</div>`+(ty==='Book'?'<p class="bsl">📖 Support local bookstores: buy through Bookshop.org. <span>ShoBlax may earn a commission from purchases made through these links.</span></p>':'')+a.map(x=>free.has(x)?card(x):lockCard(x)).join(''):''}).join('')+(mem||its.length<=FREE?'':`<p class="lockmore">🔒 ${its.length-FREE} more in ${name}. Sign up free to unlock.</p>`);
+  return `<details class="tp" data-k="${k}" ${(q||openSet.has(k))?'open':''}><summary>${name}<span>${its.length}</span></summary>${g}</details>`}).join('')||'<p class="warn" style="margin:0 16px">No matches.</p>';
+ $('cnt').textContent=`${tot.size} of ${R.items.length} resources shown · Last verified ${R.lastVerified}`;
+ document.querySelectorAll('details.tp').forEach(d=>d.addEventListener('toggle',()=>{d.open?openSet.add(d.dataset.k):openSet.delete(d.dataset.k);sessionStorage.setItem('sbx_open',JSON.stringify([...openSet]))}));}
+$('tog').onclick=()=>{const ds=[...document.querySelectorAll('details.tp')],o=!ds.every(d=>d.open);ds.forEach(d=>d.open=o);$('tog').textContent=o?'Close all':'Open all'};
+$('qq').oninput=render;
+function bar(){$('bar').innerHTML=SBX.isMember()?'<a class="btn" href="index.html">Home</a><a class="btn pri" href="crew.html" id="crewBtn">💬 Crew Room</a><a class="btn" href="#" onclick="window.scrollTo(0,0);return false">🔍 Search</a>':'<a class="btn" href="index.html" style="flex:.6">Home</a><button class="btn pri" type="button" id="unlockBtn">🔓 Sign up free to unlock</button>';const u=$('unlockBtn');if(u)u.onclick=SBX.openSheet}
+document.addEventListener('sbx:member',()=>{bar();render()});bar();
+st.onchange=()=>{L={state:st.value,metro:'All'};save()};mt.onchange=()=>{L.metro=mt.value;save()};
+function save(){localStorage.setItem('sbx_loc',JSON.stringify(L));metros();render()}
+st.value=R.locations[L.state]?L.state:'All';metros();render();
+})();
+</script></body></html>

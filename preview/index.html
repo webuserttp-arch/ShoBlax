@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ShoBlax: Event Production Library (MOCKUP)</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="members.css"><style>
+.wm{width:78%;max-width:320px;display:block;margin:4px 0 14px}
+details.tp{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:0 16px 8px}
+details.tp>summary{min-height:56px;display:flex;align-items:center;padding:0 14px;color:var(--hi);font-weight:700;font-size:15px;cursor:pointer;list-style:none}
+details.tp>summary::-webkit-details-marker{display:none}details.tp>summary span{margin-left:auto;color:#666;font-weight:400;font-size:13px}
+details.tp>summary:after{content:'+';font-size:22px;color:#777;margin-left:10px}details.tp[open]>summary:after{content:'–'}
+details.tp .in{padding:0 14px 12px;font-size:13px}details.tp .in a{color:var(--hi)}.stats{display:flex;gap:8px;padding:0 16px 16px;flex-wrap:wrap}.stats span{border:1px solid var(--line);border-radius:99px;padding:6px 10px;font-size:12px}
+</style></head><body>
+<header><img src="logo.svg" alt="ShoBlax"><nav><a href="training.html">Library</a></nav></header>
+<div class="hero"><img class="wm" src="logo.svg" alt="ShoBlax"><div class="stage" aria-hidden="true"><img src="logo.svg" alt=""></div><h1>Out on the wings or through a changeover, ShoBlax has you covered.</h1><p>A free, curated event production library for stagehands &amp; techs in every department: rigging, audio, lighting, video, carps, wardrobe, loaders and more. Videos, books, free standards, courses and more, all in one place.</p></div>
+<div class="stats" id="stats"></div>
+<section style="padding:4px 0 0"><h2 style="padding:0 16px 10px">Browse by topic</h2><div id="prev"></div></section>
+<section><div class="box">More coming soon. Know a great resource? <a href="mailto:resources@example.com?subject=ShoBlax%20library%20suggestion" style="color:#c9c9c9">Suggest one (placeholder)</a>.</div></section>
+<p class="note">MOCKUP, not live. Resources belong to their creators; listing ≠ endorsement. Last verified 10/11/2026. · <a href="privacy.html" style="color:#777">Privacy policy</a></p>
+<div class="bar" id="bar"><a class="btn pri" style="flex:1" href="training.html">Open the library</a></div>
+<script src="resources.js"></script><script src="hide.js"></script><script src="members-config.js"></script><script src="members.js"></script><script>
+const R=SBX_HIDE(window.RES),E=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const c={};R.items.forEach(x=>c[x.type]=(c[x.type]||0)+1);
+document.getElementById('stats').innerHTML=`<span>${R.items.length} resources</span>`+Object.entries(c).map(([k,v])=>`<span>${v} ${E(k)}${v>1&&!k.includes('/')?'s':''}</span>`).join('')+`<span>${R.topics.length} topics</span>`;
+document.getElementById('prev').innerHTML=R.topics.map(([k,n])=>{const its=R.items.filter(x=>x.topics.includes(k));return `<details class="tp"><summary>${E(n)}<span>${its.length}</span></summary><div class="in">${its.slice(0,3).map(x=>'• '+E(x.t)).join('<br>')}<br><a href="training.html?open=${k}">See all ${its.length} →</a></div></details>`}).join('');
+function bar(){document.getElementById('bar').innerHTML=SBX.isMember()?'<a class="btn" href="crew.html">💬 Crew Room</a><a class="btn pri" href="training.html">Open the library</a>':'<a class="btn" href="training.html">Library</a><button class="btn pri" type="button" id="unlockBtn">🔓 Sign up free to unlock</button>';const u=document.getElementById('unlockBtn');if(u)u.onclick=SBX.openSheet}
+document.addEventListener('sbx:member',bar);bar();
+</script></body></html>
